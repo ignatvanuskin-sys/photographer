@@ -44,7 +44,7 @@ export function Header({ brandName, nav, mode }: Props) {
         className={[
           'fixed inset-x-0 top-0 z-50 transition-colors duration-500',
           solid
-            ? 'border-b border-bone/10 bg-graphite/92 backdrop-blur-md'
+            ? 'border-b border-bone/10 bg-graphite/95 backdrop-blur-md'
             : 'border-b border-transparent bg-transparent',
         ].join(' ')}
       >
@@ -110,7 +110,7 @@ export function Header({ brandName, nav, mode }: Props) {
       {open ? (
         <div
           id="mobile-menu"
-          className="fixed inset-0 z-40 flex flex-col justify-center bg-graphite/98 pt-[var(--header-h)] md:hidden"
+          className="fixed inset-0 z-40 flex flex-col justify-center bg-graphite pt-[var(--header-h)] md:hidden"
         >
           <nav aria-label="Навигация в мобильном меню" className="section">
             <ul className="wrap flex flex-col">

@@ -56,7 +56,7 @@ export function StickyBar({
   return (
     <div
       className={[
-        'fixed inset-x-0 bottom-0 z-40 border-t border-bone/12 bg-graphite/95 backdrop-blur-md transition-transform duration-400 ease-out md:hidden',
+        'fixed inset-x-0 bottom-0 z-40 border-t border-bone/10 bg-graphite/95 backdrop-blur-md transition-transform duration-400 ease-out md:hidden',
         hidden ? 'pointer-events-none translate-y-full' : 'translate-y-0',
       ].join(' ')}
       aria-hidden={hidden}

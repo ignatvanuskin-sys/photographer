@@ -347,7 +347,14 @@ export function BookingForm({
               markStarted();
             }}
             onFocus={markStarted}
+            aria-invalid={Boolean(fieldErrors.date)}
+            aria-describedby={fieldErrors.date ? 'err-date' : undefined}
           />
+          {fieldErrors.date ? (
+            <p id="err-date" role="alert" className="mt-2 text-step-0 text-[#d98b7a]">
+              {fieldErrors.date}
+            </p>
+          ) : null}
         </div>
 
         <div>

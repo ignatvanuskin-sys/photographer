@@ -138,7 +138,7 @@ export default function Lightbox({
       role="dialog"
       aria-modal="true"
       aria-label={label ? `Просмотр: ${label}` : 'Просмотр кадра'}
-      className="fixed inset-0 z-[70] flex flex-col bg-graphite/98"
+      className="fixed inset-0 z-[70] flex flex-col bg-graphite"
       style={{ animation: 'none' }}
     >
       {/* Верхняя панель */}
