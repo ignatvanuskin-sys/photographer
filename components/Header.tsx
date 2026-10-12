@@ -79,7 +79,7 @@ export function Header({ brandName, nav, mode }: Props) {
                 className="btn-primary hidden md:inline-flex"
                 onClick={() => track('hero_cta_click', { place: 'header' })}
               >
-                Узнать дату
+                Записаться
               </a>
 
               <button
@@ -114,7 +114,7 @@ export function Header({ brandName, nav, mode }: Props) {
         >
           <nav aria-label="Навигация в мобильном меню" className="section">
             <ul className="wrap flex flex-col">
-              {[...nav, { href: '#booking', label: 'Заявка' }].map((item, i) => (
+              {[...nav, { href: '#booking', label: 'Записаться' }].map((item, i) => (
                 <li key={item.href} className={i === 0 ? '' : 'rule-t'}>
                   <a
                     href={item.href}

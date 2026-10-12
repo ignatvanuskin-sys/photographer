@@ -9,10 +9,35 @@ export type SeoInput = {
   siteUrl?: string;
 };
 
+/**
+ * Базовый адрес сайта для canonical, sitemap и Open Graph.
+ *
+ * ВАЖНО: VERCEL_URL — это адрес КОНКРЕТНОГО деплоя
+ * (photographer-iw47yvqtn-bbc-b318.vercel.app) и он меняется при каждом
+ * релизе. Если использовать его, canonical и og:image на каждом деплое
+ * указывают на новый технический хост: поисковик видит разные canonical
+ * для одной страницы, а соцсети тянут картинку с мёртвого адреса.
+ *
+ * Поэтому порядок такой:
+ *  1. NEXT_PUBLIC_SITE_URL — если владелец подключит свой домен;
+ *  2. VERCEL_PROJECT_PRODUCTION_URL — стабильный домен проекта в Vercel;
+ *  3. VERCEL_URL — только как крайний случай (preview-деплой);
+ *  4. localhost для локальной разработки.
+ */
 export function getSiteUrl(): string {
-  const raw = process.env.NEXT_PUBLIC_SITE_URL?.trim();
-  if (raw) return raw.replace(/\/+$/, '');
-  if (process.env.VERCEL_URL) return `https://${process.env.VERCEL_URL}`;
+  const explicit = process.env.NEXT_PUBLIC_SITE_URL?.trim();
+  if (explicit) return explicit.replace(/\/+$/, '');
+
+  const production = process.env.VERCEL_PROJECT_PRODUCTION_URL?.trim();
+  if (production) {
+    return `https://${production.replace(/^https?:\/\//, '').replace(/\/+$/, '')}`;
+  }
+
+  const deployment = process.env.VERCEL_URL?.trim();
+  if (deployment) {
+    return `https://${deployment.replace(/^https?:\/\//, '').replace(/\/+$/, '')}`;
+  }
+
   return 'http://localhost:3000';
 }
 

@@ -99,8 +99,8 @@ export function Gallery({ shots, categories, note }: Props) {
 
       <div className="rule-t mt-10 flex flex-wrap items-center justify-between gap-x-6 gap-y-3 pt-5">
         {note ? <p className="text-step-0 text-bone/45">{note}</p> : null}
-        <a href="#booking" className="btn-ghost">
-          Хотите так же? Узнайте дату
+        <a href="#booking" className="btn-primary">
+          Записаться на съёмку
         </a>
       </div>
 

@@ -21,10 +21,10 @@ export function Booking() {
     <section id="booking" className="section py-24 sm:py-32" aria-labelledby="booking-title">
       <div className="wrap grid grid-cols-1 gap-12 md:grid-cols-12 md:gap-10">
         <div className="md:col-span-5">
-          <SectionHeading index="08" title="Узнать дату" id="booking-title" />
+          <SectionHeading index="08" title="Записаться на съёмку" id="booking-title" />
           <p className="mt-6 max-w-prose2 text-step-1 text-bone/70">
-            Заполните заявку — уточним свободную дату, формат и стоимость. Ничего лишнего не
-            спрашиваем.
+            Заполните заявку — уточним свободную дату, формат и стоимость. Обязательны только имя,
+            телефон и согласие. Ничего лишнего не спрашиваем.
           </p>
 
           <dl className="mt-10">

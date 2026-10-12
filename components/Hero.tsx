@@ -22,7 +22,7 @@ function buildSrcset(src: string) {
 }
 
 export function Hero() {
-  const { hero, brand, contacts, reviews } = business;
+  const { hero, brand, contacts, reviews, terms } = business;
   const desktop = buildSrcset(hero.desktop.src);
   const mobile = buildSrcset(hero.mobile.src);
 
@@ -102,6 +102,12 @@ export function Hero() {
             </p>
 
             <HeroCTA />
+
+            {/* Пояснение к главному действию: что именно произойдёт после нажатия */}
+            <p className="mt-4 text-step-0 text-bone/60">
+              Ответим {terms.responseSla}: назовём стоимость и свободную дату. Заявка ни к чему не
+              обязывает.
+            </p>
           </div>
 
           {trust ? (

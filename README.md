@@ -158,7 +158,11 @@ vercel --prod     # продакшн
 1. Купите домен, добавьте его в панель Vercel → Domains.
 2. Пропишите A/CNAME-записи у регистратора.
 3. Обновите `NEXT_PUBLIC_SITE_URL` — от него зависят canonical, sitemap и Open Graph.
-4. Только после согласия владельца: `MODE=production`.
+4. Только после согласия владельца: `"mode": "production"` в `content/business.json`.
+
+> Если `NEXT_PUBLIC_SITE_URL` не задан, адрес берётся из `VERCEL_PROJECT_PRODUCTION_URL`
+> (стабильный домен проекта). Переменную `VERCEL_URL` используем только как крайний случай:
+> это адрес конкретного деплоя, он меняется на каждом релизе и ломает canonical и `og:image`.
 
 ---
 

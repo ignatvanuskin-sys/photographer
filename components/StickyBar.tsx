@@ -78,7 +78,7 @@ export function StickyBar({
           className="btn-primary"
           onClick={() => track('hero_cta_click', { place: 'sticky_bar' })}
         >
-          Узнать дату
+          Записаться
         </a>
       </div>
     </div>
