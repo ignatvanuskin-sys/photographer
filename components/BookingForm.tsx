@@ -3,7 +3,7 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
 import Link from 'next/link';
 import { leadSchema } from '@/lib/lead-schema';
-import { formatKzPhoneMask, isValidKzPhone, prettyPhone } from '@/lib/phone';
+import { formatKzPhoneMask, isValidKzPhone, prettyPhone, telHref } from '@/lib/phone';
 import { todayInAlmaty } from '@/lib/dates';
 import { buildLeadText, buildWaLink } from '@/lib/whatsapp';
 import { captureAttribution, deviceKind, readAttribution, track } from '@/lib/analytics';
@@ -59,6 +59,7 @@ export function BookingForm({
   const [comment, setComment] = useState('');
   const [consent, setConsent] = useState(false);
   const [company, setCompany] = useState(''); // honeypot
+  const [popupBlocked, setPopupBlocked] = useState(false);
 
   /* Минимальная дата — сегодня по времени Астаны (та же логика, что в валидации) */
   const minDate = todayInAlmaty();
@@ -163,7 +164,10 @@ export function BookingForm({
       }
       setStatus('sending');
       track('form_submit', { transport: 'whatsapp' });
-      window.open(link, '_blank', 'noopener,noreferrer');
+      // window.open возвращает null, если браузер заблокировал всплывающее окно —
+      // тогда честно скажем об этом на экране результата и дадим кнопку.
+      const popup = window.open(link, '_blank', 'noopener,noreferrer');
+      setPopupBlocked(!popup);
       setStatus('ok');
       return;
     }
@@ -206,19 +210,65 @@ export function BookingForm({
     }
   };
 
-  /* ── Экран «Заявка принята» ────────────────────────────── */
+  /* ── Экран результата ──────────────────────────────────── */
   if (status === 'ok') {
     const waLink = buildWaLink(
       whatsapp ?? phone,
       buildLeadText({ name, phone: prettyPhone(phoneValue), format, date, place, channel, comment }),
     );
+
+    /**
+     * Два честных сценария.
+     *
+     * Если заявки принимает сервер (Telegram настроен) — она уже у владельца,
+     * говорим «Заявка принята».
+     * Если сервер не настроен, заявка уходит только через WhatsApp, и до нажатия
+     * «Отправить» в чате она никуда не попала. Писать в этом случае «Заявка принята»
+     * означало бы обещать то, чего не произошло, и человек уходил бы, не отправив.
+     */
+    if (telegramEnabled) {
+      return (
+        <div className="rule-t pt-8" role="status" aria-live="polite">
+          <p className="caps text-brass">Заявка принята</p>
+          <h3 className="mt-3 font-display text-step-3 text-bone">
+            Спасибо, {name || 'мы на связи'}.
+          </h3>
+          <p className="mt-4 max-w-prose2 text-step-1 text-bone/70">
+            Ответим {responseSla}. Если удобнее написать сразу — откройте чат, текст заявки уже
+            заполнен.
+          </p>
+          <div className="mt-7 flex flex-wrap gap-3">
+            {waLink ? (
+              <a
+                href={waLink}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn-primary"
+                onClick={() => track('whatsapp_click', { place: 'after_submit' })}
+              >
+                Открыть WhatsApp
+              </a>
+            ) : null}
+            <a href="#works" className="btn-ghost">
+              Вернуться к работам
+            </a>
+          </div>
+        </div>
+      );
+    }
+
     return (
       <div className="rule-t pt-8" role="status" aria-live="polite">
-        <p className="caps text-brass">Заявка принята</p>
-        <h3 className="mt-3 font-display text-step-3 text-bone">Спасибо, {name || 'мы на связи'}.</h3>
+        <p className="caps text-brass">Остался один шаг</p>
+        <h3 className="mt-3 font-display text-step-3 text-bone">
+          Отправьте сообщение в WhatsApp
+        </h3>
         <p className="mt-4 max-w-prose2 text-step-1 text-bone/70">
-          Ответим {responseSla}. Если удобнее написать сразу — откройте чат, текст заявки уже
-          заполнен.
+          {popupBlocked
+            ? 'Браузер заблокировал открытие чата. Нажмите кнопку ниже — текст заявки уже вставлен, останется отправить.'
+            : 'Мы открыли чат WhatsApp, текст заявки уже вставлен. Осталось нажать «Отправить» — после этого заявка придёт нам, и мы ответим ' +
+              responseSla +
+              '.'}
         </p>
         <div className="mt-7 flex flex-wrap gap-3">
           {waLink ? (
@@ -232,9 +282,11 @@ export function BookingForm({
               Открыть WhatsApp
             </a>
           ) : null}
-          <a href="#works" className="btn-ghost">
-            Вернуться к работам
-          </a>
+          {phone ? (
+            <a href={telHref(phone)} className="btn-ghost" onClick={() => track('phone_click', {})}>
+              Позвонить
+            </a>
+          ) : null}
         </div>
       </div>
     );
