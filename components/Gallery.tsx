@@ -1,7 +1,7 @@
 'use client';
 
 import dynamic from 'next/dynamic';
-import { useMemo, useState } from 'react';
+import { useMemo, useRef, useState } from 'react';
 import { Shot } from './Shot';
 import { track } from '@/lib/analytics';
 import type { LightboxItem } from './Lightbox';
@@ -28,6 +28,8 @@ type Props = {
 export function Gallery({ shots, categories, note }: Props) {
   const [filter, setFilter] = useState<string>('all');
   const [open, setOpen] = useState<number | null>(null);
+  /** Кнопка, открывшая лайтбокс: на неё вернётся фокус при закрытии */
+  const triggerRef = useRef<HTMLButtonElement | null>(null);
 
   const visible = useMemo(
     () => (filter === 'all' ? shots : shots.filter((s) => s.category === filter)),
@@ -75,8 +77,9 @@ export function Gallery({ shots, categories, note }: Props) {
             key={`${shot.src}-${i}`}
             type="button"
             className="group relative block w-full break-inside-avoid overflow-hidden"
-            onClick={() => {
+            onClick={(e) => {
               track('gallery_open', { category: shot.category, index: i });
+              triggerRef.current = e.currentTarget;
               setOpen(i);
             }}
             aria-label={`Открыть кадр: ${shot.alt}`}
@@ -109,6 +112,7 @@ export function Gallery({ shots, categories, note }: Props) {
           items={visible}
           index={open}
           label={filter === 'all' ? 'Все работы' : filter}
+          returnFocusTo={triggerRef.current}
           onNavigate={setOpen}
           onClose={() => setOpen(null)}
         />

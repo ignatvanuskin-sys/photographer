@@ -1,7 +1,7 @@
 'use client';
 
 import dynamic from 'next/dynamic';
-import { useState } from 'react';
+import { useRef, useState } from 'react';
 import { Shot } from './Shot';
 import type { LightboxItem } from './Lightbox';
 
@@ -10,6 +10,8 @@ const Lightbox = dynamic(() => import('./Lightbox'), { ssr: false });
 /** Сетка серии: кадры в своих пропорциях, клик открывает лайтбокс. */
 export function SeriesGallery({ items, label }: { items: LightboxItem[]; label: string }) {
   const [open, setOpen] = useState<number | null>(null);
+  /** Кнопка, открывшая лайтбокс: на неё вернётся фокус при закрытии */
+  const triggerRef = useRef<HTMLButtonElement | null>(null);
 
   return (
     <>
@@ -19,7 +21,10 @@ export function SeriesGallery({ items, label }: { items: LightboxItem[]; label: 
             key={item.src}
             type="button"
             className="group block w-full break-inside-avoid overflow-hidden"
-            onClick={() => setOpen(i)}
+            onClick={(e) => {
+              triggerRef.current = e.currentTarget;
+              setOpen(i);
+            }}
             aria-label={`Открыть кадр: ${item.alt}`}
           >
             <Shot
@@ -39,6 +44,7 @@ export function SeriesGallery({ items, label }: { items: LightboxItem[]; label: 
           items={items}
           index={open}
           label={label}
+          returnFocusTo={triggerRef.current}
           onNavigate={setOpen}
           onClose={() => setOpen(null)}
         />

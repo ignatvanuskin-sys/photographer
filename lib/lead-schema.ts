@@ -1,5 +1,6 @@
 import { z } from 'zod';
 import { isValidKzPhone, normalizeKzPhone } from './phone';
+import { isPastDate } from './dates';
 
 /**
  * Серверная валидация заявки.
@@ -30,9 +31,12 @@ export const leadSchema = z.object({
     .max(40)
     .optional()
     .nullable()
+    .refine((v) => !v || !Number.isNaN(Date.parse(v)), 'Не удалось распознать дату')
+    // У поля есть min, но форма отправляется с novalidate, поэтому прошедшую
+    // дату нужно отсекать здесь — иначе заявка на «вчера» уходила молча.
     .refine(
-      (v) => !v || !Number.isNaN(Date.parse(v)),
-      'Не удалось распознать дату',
+      (v) => !v || !isPastDate(v),
+      'Эта дата уже прошла — выберите сегодня или позже',
     ),
 
   place: z.string().trim().max(200).optional().nullable(),

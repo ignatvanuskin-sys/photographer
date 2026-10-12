@@ -76,7 +76,9 @@ export function Hero() {
         </picture>
 
         {/* Лёгкий градиент только под текстом — кадр не затемняется целиком */}
-        <div className="scrim-b absolute inset-0" aria-hidden="true" />
+        <div className="scrim-b hidden md:block absolute inset-0" aria-hidden="true" />
+        {/* На мобильном вертикальный кадр светлее, поэтому низ затемняем сильнее */}
+        <div className="scrim-b-strong absolute inset-0 md:hidden" aria-hidden="true" />
         <div className="scrim-t absolute inset-x-0 top-0 h-40" aria-hidden="true" />
       </div>
 
@@ -84,19 +86,19 @@ export function Hero() {
       <div className="section pb-14 pt-32 sm:pb-20">
         <div className="wrap">
           <div className="max-w-3xl">
-            <p className="caps mb-5 text-brass">
+            <p className="caps text-shadow-hero mb-5 text-brass">
               {brand.roles.length > 0 ? brand.roles.join(' · ') : 'Фото и видео'}
             </p>
 
             <h1
               id="hero-title"
-              className="font-display text-step-6 leading-[1.02] tracking-tight2 text-bone"
+              className="text-shadow-hero font-display text-step-6 leading-[1.02] tracking-tight2 text-bone"
             >
               Love story и фотосъёмка{' '}
               <span className="block text-bone/85">в {cityIn(contacts.city)}</span>
             </h1>
 
-            <p className="lede mt-6 max-w-xl">
+            <p className="text-shadow-hero lede mt-6 max-w-xl">
               {contacts.place ? `${contacts.place}. ` : ''}
               {contacts.hours ? `Работаем ${contacts.hours}.` : 'Фото и видео на выезде.'}
             </p>

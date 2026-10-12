@@ -17,6 +17,13 @@ type Props = {
   items: LightboxItem[];
   index: number;
   label?: string;
+  /**
+   * Элемент, который открыл лайтбокс. Фокус вернётся именно на него.
+   * Раньше опирались на document.activeElement — но при программном клике
+   * (и в части браузеров) кнопка фокус не получает, и фокус уезжал на <body>,
+   * из-за чего клавиатурный пользователь терял место на странице.
+   */
+  returnFocusTo?: HTMLElement | null;
   onNavigate: (nextIndex: number) => void;
   onClose: () => void;
 };
@@ -26,7 +33,14 @@ type Props = {
  * Возврат фокуса на элемент, который открыл лайтбокс, — обязателен.
  * Компонент подключается динамическим импортом (см. Gallery / SeriesCardLink).
  */
-export default function Lightbox({ items, index, label, onNavigate, onClose }: Props) {
+export default function Lightbox({
+  items,
+  index,
+  label,
+  returnFocusTo,
+  onNavigate,
+  onClose,
+}: Props) {
   const dialogRef = useRef<HTMLDivElement>(null);
   const closeRef = useRef<HTMLButtonElement>(null);
   const restoreRef = useRef<HTMLElement | null>(null);
@@ -50,7 +64,7 @@ export default function Lightbox({ items, index, label, onNavigate, onClose }: P
 
   /* Фокус: запоминаем, куда вернуть, и уводим его в диалог */
   useEffect(() => {
-    restoreRef.current = document.activeElement as HTMLElement | null;
+    restoreRef.current = returnFocusTo ?? (document.activeElement as HTMLElement | null);
     closeRef.current?.focus();
     const prevOverflow = document.body.style.overflow;
     document.body.style.overflow = 'hidden';

@@ -77,11 +77,16 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="ru" className={`${display.variable} ${sans.variable}`}>
       <body>
+        {/*
+          Skip-link ведёт на #main: раньше он указывал на #works, которого
+          на страницах без портфолио (например, 404) не существует — ссылка
+          «в никуда» для клавиатурного пользователя.
+        */}
         <a
-          href="#works"
+          href="#main"
           className="caps fixed left-4 top-4 z-[80] -translate-y-24 bg-bone px-4 py-3 text-ink transition-transform focus:translate-y-0"
         >
-          Перейти к работам
+          Перейти к содержанию
         </a>
 
         {children}

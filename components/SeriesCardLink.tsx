@@ -2,7 +2,7 @@
 
 import dynamic from 'next/dynamic';
 import Link from 'next/link';
-import { useState } from 'react';
+import { useRef, useState } from 'react';
 import { Shot } from './Shot';
 import { track } from '@/lib/analytics';
 import type { LightboxItem } from './Lightbox';
@@ -39,6 +39,8 @@ export function SeriesCardLink({
   hasOwnPage,
 }: Props) {
   const [open, setOpen] = useState<number | null>(null);
+  /** Кнопка, открывшая лайтбокс: на неё вернётся фокус при закрытии */
+  const triggerRef = useRef<HTMLButtonElement | null>(null);
 
   const inner = (
     <>
@@ -81,8 +83,9 @@ export function SeriesCardLink({
       <button
         type="button"
         className="group block w-full text-left"
-        onClick={() => {
+        onClick={(e) => {
           track('gallery_open', { series: slug });
+          triggerRef.current = e.currentTarget;
           setOpen(0);
         }}
         aria-label={`Открыть серию «${title}»`}
@@ -95,6 +98,7 @@ export function SeriesCardLink({
           items={photos}
           index={open}
           label={title}
+          returnFocusTo={triggerRef.current}
           onNavigate={setOpen}
           onClose={() => setOpen(null)}
         />

@@ -4,6 +4,7 @@ import { useCallback, useEffect, useRef, useState } from 'react';
 import Link from 'next/link';
 import { leadSchema } from '@/lib/lead-schema';
 import { formatKzPhoneMask, isValidKzPhone, prettyPhone } from '@/lib/phone';
+import { todayInAlmaty } from '@/lib/dates';
 import { buildLeadText, buildWaLink } from '@/lib/whatsapp';
 import { captureAttribution, deviceKind, readAttribution, track } from '@/lib/analytics';
 import { TEN_CHANNELS } from './booking-channels';
@@ -37,6 +38,13 @@ export function BookingForm({
 }: Props) {
   const formRef = useRef<HTMLFormElement>(null);
   const startAt = useRef<number>(0);
+  /**
+   * Синхронный замок от двойной отправки.
+   * Состояния React обновляются асинхронно, поэтому два быстрых клика успевали
+   * оба пройти проверку `status === 'sending'` и открывали две вкладки WhatsApp.
+   * Ref меняется мгновенно и закрывает эту гонку.
+   */
+  const submittingRef = useRef(false);
   const [status, setStatus] = useState<Status>('idle');
   const [errorText, setErrorText] = useState<string | null>(null);
   const [fieldErrors, setFieldErrors] = useState<Record<string, string>>({});
@@ -52,12 +60,8 @@ export function BookingForm({
   const [consent, setConsent] = useState(false);
   const [company, setCompany] = useState(''); // honeypot
 
-  /* Минимальная дата — сегодня по времени Астаны */
-  const minDate = (() => {
-    const now = new Date();
-    const almaty = new Date(now.getTime() + (5 * 60 + now.getTimezoneOffset()) * 60_000);
-    return almaty.toISOString().slice(0, 10);
-  })();
+  /* Минимальная дата — сегодня по времени Астаны (та же логика, что в валидации) */
+  const minDate = todayInAlmaty();
 
   useEffect(() => {
     startAt.current = Date.now();
@@ -86,7 +90,8 @@ export function BookingForm({
 
   const onSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
-    if (status === 'sending') return; // защита от двойной отправки
+    if (status === 'sending' || submittingRef.current) return; // защита от двойной отправки
+    submittingRef.current = true;
 
     setErrorText(null);
     setFieldErrors({});
@@ -123,6 +128,7 @@ export function BookingForm({
       }
       setFieldErrors(errors);
       setErrorText('Проверьте выделенные поля.');
+      submittingRef.current = false; // форма не ушла — можно исправить и отправить снова
       // Приводим пользователя к проблемному полю
       const firstKey = Object.keys(errors)[0];
       if (firstKey) {
@@ -149,6 +155,7 @@ export function BookingForm({
       const link = buildWaLink(whatsapp ?? phone, leadText);
       if (!link) {
         setStatus('error');
+        submittingRef.current = false;
         setErrorText(
           'Отправка временно недоступна: не задан номер. Позвоните нам — контакты внизу страницы.',
         );
@@ -181,6 +188,7 @@ export function BookingForm({
       if (!res.ok) {
         const body = (await res.json().catch(() => null)) as { error?: string } | null;
         setStatus('error');
+        submittingRef.current = false;
         setErrorText(
           body?.error === 'rate_limited'
             ? 'Слишком много попыток. Попробуйте через пару минут или напишите в WhatsApp.'
@@ -193,6 +201,7 @@ export function BookingForm({
       setStatus('ok');
     } catch {
       setStatus('error');
+      submittingRef.current = false;
       setErrorText('Сеть недоступна. Попробуйте ещё раз или напишите в WhatsApp.');
     }
   };
@@ -260,7 +269,7 @@ export function BookingForm({
             aria-describedby={fieldErrors.name ? 'err-name' : undefined}
           />
           {fieldErrors.name ? (
-            <p id="err-name" className="mt-2 text-step-0 text-[#d98b7a]">
+            <p id="err-name" role="alert" className="mt-2 text-step-0 text-[#d98b7a]">
               {fieldErrors.name}
             </p>
           ) : null}
@@ -288,7 +297,7 @@ export function BookingForm({
             aria-describedby={fieldErrors.phone ? 'err-phone' : undefined}
           />
           {fieldErrors.phone ? (
-            <p id="err-phone" className="mt-2 text-step-0 text-[#d98b7a]">
+            <p id="err-phone" role="alert" className="mt-2 text-step-0 text-[#d98b7a]">
               {fieldErrors.phone}
             </p>
           ) : (
@@ -454,7 +463,7 @@ export function BookingForm({
       </div>
 
       {fieldErrors.consent ? (
-        <p id="err-consent" className="mt-3 text-step-0 text-[#d98b7a]">
+        <p id="err-consent" role="alert" className="mt-3 text-step-0 text-[#d98b7a]">
           {fieldErrors.consent}
         </p>
       ) : null}

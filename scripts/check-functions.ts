@@ -13,6 +13,8 @@ import { formatKzPhoneMask, isValidKzPhone, normalizeKzPhone, prettyPhone } from
 import { cityIn, photoCount, ratingCount, reviewCount } from '../lib/format';
 import { computeEnabledSections } from '../lib/sections';
 import { business } from '../lib/business';
+import { leadSchema } from '../lib/lead-schema';
+import { isPastDate, todayInAlmaty } from '../lib/dates';
 
 let failed = 0;
 
@@ -49,6 +51,31 @@ check('Караганда → Караганде', cityIn('Караганда'),
 check('Шымкент → Шымкенте', cityIn('Шымкент'), 'Шымкенте');
 check('Алматы не склоняется', cityIn('Алматы'), 'Алматы');
 check('Атырау не склоняется', cityIn('Атырау'), 'Атырау');
+
+console.log('\n── Маска телефона не подменяет чужой номер ──');
+check('+1 555 000 0000 не переписывается в +7', formatKzPhoneMask('+1 555 000 0000'), '+1 555 000 0000');
+check('+7 700 659 23 07 форматируется', formatKzPhoneMask('+77006592307'), '+7 700 659 23 07');
+check('8 700 659 23 07 → +7', formatKzPhoneMask('87006592307'), '+7 700 659 23 07');
+
+console.log('\n── Дата: прошедшее число отсекается ──');
+check('вчера считается прошедшим', isPastDate('2020-01-01'), true);
+check('сегодня не прошедшее', isPastDate(todayInAlmaty()), false);
+check('будущее не прошедшее', isPastDate('2099-12-31'), false);
+check('мусор не считается датой', isPastDate('не дата'), false);
+
+const base = {
+  name: 'Айгуль',
+  phone: '+77006592307',
+  channel: 'whatsapp' as const,
+  consent: true as const,
+};
+check('заявка с прошедшей датой отклоняется', leadSchema.safeParse({ ...base, date: '2020-01-01' }).success, false);
+check('заявка с будущей датой принимается', leadSchema.safeParse({ ...base, date: '2099-12-31' }).success, true);
+check('заявка без даты принимается', leadSchema.safeParse({ ...base }).success, true);
+check('имя из 1 символа отклоняется', leadSchema.safeParse({ ...base, name: 'A' }).success, false);
+check('имя из 2 символов принимается', leadSchema.safeParse({ ...base, name: 'Ая' }).success, true);
+check('без согласия отклоняется', leadSchema.safeParse({ ...base, consent: false }).success, false);
+check('зарубежный телефон отклоняется', leadSchema.safeParse({ ...base, phone: '+1 555 000 0000' }).success, false);
 
 console.log('\n── Секции: список в данных = вычисленный ──');
 const enabled = computeEnabledSections(business);
