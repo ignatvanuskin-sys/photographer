@@ -1,0 +1,326 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ═══════════════════════════════════════════════════════════════
+   Дизайн-система «галерея в тёмной комнате»
+   Изображения главные, интерфейс тихий: тонкие линии, много воздуха,
+   один приглушённый акцент. Без декоративного шума.
+   ═══════════════════════════════════════════════════════════════ */
+
+:root {
+  --bg: #0e0e0f;
+  --bg-soft: #151517;
+  --bone: #f4f0ea;
+  --ink: #161616;
+  --brass: #c9a96a;
+  --brass-deep: #a98545;
+
+  --line-dark: rgba(244, 240, 234, 0.14);
+  --line-light: rgba(22, 22, 22, 0.13);
+
+  --header-h: 64px;
+}
+
+@layer base {
+  html {
+    -webkit-tap-highlight-color: transparent;
+    scroll-behavior: smooth;
+    /* Липкая нижняя панель не должна перекрывать якорные секции */
+    scroll-padding-top: calc(var(--header-h) + 16px);
+  }
+
+  body {
+    @apply bg-graphite text-bone font-sans antialiased;
+    font-size: 17px;
+    line-height: 1.55;
+    text-rendering: optimizeLegibility;
+    overflow-x: clip;
+  }
+
+  h1,
+  h2,
+  h3 {
+    @apply font-display;
+    text-wrap: balance;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  /* Видимый фокус — обязателен для клавиатуры */
+  :focus-visible {
+    outline: 2px solid var(--brass);
+    outline-offset: 3px;
+    border-radius: 2px;
+  }
+
+  ::selection {
+    background: var(--brass);
+    color: #161616;
+  }
+
+  img {
+    /* Никаких «прыжков» при загрузке */
+    height: auto;
+  }
+
+  /* Убираем нативные стрелки у input[type=date] в тёмной теме */
+  input[type='date']::-webkit-calendar-picker-indicator {
+    filter: invert(1) opacity(0.6);
+    cursor: pointer;
+  }
+}
+
+@layer components {
+  /* ── Типографика ─────────────────────────────────────────── */
+
+  .caps {
+    @apply uppercase;
+    font-size: 0.6875rem;
+    letter-spacing: 0.18em;
+    font-weight: 500;
+    line-height: 1.4;
+  }
+
+  .num {
+    @apply font-display tabular-nums;
+    font-feature-settings: 'tnum';
+  }
+
+  .lede {
+    @apply text-step-2 text-bone/80;
+    font-weight: 300;
+  }
+
+  /* ── Линии-разделители ───────────────────────────────────── */
+
+  .rule-t {
+    border-top: 1px solid var(--line-dark);
+  }
+
+  .rule-b {
+    border-bottom: 1px solid var(--line-dark);
+  }
+
+  .on-light .rule-t,
+  .on-light .rule-b {
+    border-color: var(--line-light);
+  }
+
+  /* ── Секции ──────────────────────────────────────────────── */
+
+  .section {
+    @apply px-5 sm:px-8 lg:px-12;
+  }
+
+  .wrap {
+    @apply mx-auto w-full max-w-site;
+  }
+
+  /* ── Кнопки ──────────────────────────────────────────────── */
+
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 whitespace-nowrap;
+    min-height: 48px;
+    padding: 0 22px;
+    font-size: 0.8125rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition:
+      background-color 260ms cubic-bezier(0.22, 1, 0.36, 1),
+      color 260ms cubic-bezier(0.22, 1, 0.36, 1),
+      border-color 260ms cubic-bezier(0.22, 1, 0.36, 1),
+      opacity 260ms;
+  }
+
+  .btn-primary {
+    @apply btn bg-brass text-ink;
+  }
+  .btn-primary:hover {
+    @apply bg-bone;
+  }
+
+  .btn-ghost {
+    @apply btn border text-bone;
+    border-color: var(--line-dark);
+    background: transparent;
+  }
+  .btn-ghost:hover {
+    @apply bg-bone/10;
+    border-color: rgba(244, 240, 234, 0.4);
+  }
+
+  .on-light .btn-ghost {
+    @apply text-ink;
+    border-color: var(--line-light);
+  }
+  .on-light .btn-ghost:hover {
+    @apply bg-ink/5;
+    border-color: rgba(22, 22, 22, 0.35);
+  }
+
+  .btn:disabled {
+    opacity: 0.45;
+    cursor: not-allowed;
+  }
+
+  /* ── Поля формы ──────────────────────────────────────────── */
+
+  .field {
+    @apply w-full bg-transparent text-bone;
+    border: 1px solid var(--line-dark);
+    min-height: 48px;
+    padding: 12px 14px;
+    font-size: 1rem;
+    transition: border-color 200ms;
+  }
+
+  .field::placeholder {
+    color: rgba(244, 240, 234, 0.35);
+  }
+
+  .field:focus {
+    outline: none;
+    border-color: var(--brass);
+  }
+
+  .field[aria-invalid='true'] {
+    border-color: #d98b7a;
+  }
+
+  .label {
+    @apply caps mb-2 block text-bone/55;
+  }
+
+  /* Нативный select в тёмной теме */
+  select.field {
+    appearance: none;
+    background-image: linear-gradient(45deg, transparent 50%, rgba(244, 240, 234, 0.5) 50%),
+      linear-gradient(135deg, rgba(244, 240, 234, 0.5) 50%, transparent 50%);
+    background-position:
+      calc(100% - 20px) calc(50% + 1px),
+      calc(100% - 15px) calc(50% + 1px);
+    background-size: 5px 5px, 5px 5px;
+    background-repeat: no-repeat;
+    padding-right: 40px;
+  }
+
+  select.field option {
+    background: #151517;
+    color: #f4f0ea;
+  }
+
+  /* ── Чипы ────────────────────────────────────────────────── */
+
+  .chip {
+    @apply inline-flex items-center gap-2 whitespace-nowrap;
+    min-height: 40px;
+    padding: 0 16px;
+    border: 1px solid var(--line-dark);
+    font-size: 0.8125rem;
+    letter-spacing: 0.02em;
+    transition: all 240ms cubic-bezier(0.22, 1, 0.36, 1);
+    cursor: pointer;
+  }
+  .chip:hover {
+    border-color: rgba(244, 240, 234, 0.4);
+  }
+  .chip[aria-pressed='true'] {
+    background: var(--bone);
+    color: var(--ink);
+    border-color: var(--bone);
+  }
+
+  /* Горизонтальная карусель со scroll-snap (мобильные серии) */
+  .snap-row {
+    @apply flex overflow-x-auto;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
+  }
+  .snap-row::-webkit-scrollbar {
+    display: none;
+  }
+  .snap-row > * {
+    scroll-snap-align: center;
+    flex: 0 0 auto;
+  }
+
+  /* ── Появление блоков ────────────────────────────────────── */
+
+  .reveal {
+    opacity: 0;
+    transform: translateY(16px);
+    transition:
+      opacity 560ms cubic-bezier(0.22, 1, 0.36, 1),
+      transform 560ms cubic-bezier(0.22, 1, 0.36, 1);
+    will-change: opacity, transform;
+  }
+
+  .reveal.is-in {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@layer utilities {
+  /* Кадр с медленным приближением (только для hero) */
+  .kenburns {
+    animation: kenburns 22s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+  }
+
+  .no-scrollbar {
+    scrollbar-width: none;
+  }
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Лёгкий градиент под текстом поверх кадра — не затемняем весь кадр */
+  .scrim-b {
+    background: linear-gradient(
+      to top,
+      rgba(14, 14, 15, 0.88) 0%,
+      rgba(14, 14, 15, 0.55) 38%,
+      rgba(14, 14, 15, 0) 72%
+    );
+  }
+
+  .scrim-t {
+    background: linear-gradient(
+      to bottom,
+      rgba(14, 14, 15, 0.7) 0%,
+      rgba(14, 14, 15, 0) 60%
+    );
+  }
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   prefers-reduced-motion: отключаем всё движение
+   ═══════════════════════════════════════════════════════════════ */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  .reveal {
+    opacity: 1;
+    transform: none;
+  }
+
+  .kenburns {
+    animation: none;
+  }
+}

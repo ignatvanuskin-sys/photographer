@@ -1,0 +1,320 @@
+{
+  "data": {
+    "address": {
+      "building_id": "70030076613525528",
+      "components": [
+        {
+          "number": "8/8",
+          "street": "проспект Туран",
+          "street_id": "9570887942537483",
+          "type": "street_number"
+        }
+      ],
+      "landmark_name": "парк Астана"
+    },
+    "address_name": "проспект Туран, 8/8",
+    "adm_div": [
+      {
+        "id": "4",
+        "name": "Казахстан",
+        "type": "country"
+      },
+      {
+        "id": "70030076149164503",
+        "name": "Астана",
+        "type": "region"
+      },
+      {
+        "city_alias": "astana",
+        "flags": {
+          "is_default": true,
+          "is_region_center": true
+        },
+        "id": "9570771978420226",
+        "is_default": true,
+        "name": "Астана",
+        "type": "city"
+      },
+      {
+        "id": "70030076552180178",
+        "name": "Нура район",
+        "type": "district"
+      }
+    ],
+    "attribute_groups": [
+      {
+        "attributes": [
+          {
+            "id": "70000201006750805",
+            "name": "Оплата картой",
+            "tag": "general_payment_type_card"
+          },
+          {
+            "id": "70000201006750769",
+            "name": "Наличный расчёт",
+            "tag": "general_payment_type_cash"
+          },
+          {
+            "id": "70000201006756021",
+            "name": "Перевод с карты",
+            "tag": "general_payment_type_transfercard"
+          },
+          {
+            "id": "70000201006756648",
+            "name": "Оплата по QR-коду",
+            "tag": "general_payment_type_qrcode"
+          }
+        ],
+        "is_context": false,
+        "is_primary": false,
+        "name": "Способы оплаты",
+        "rubric_ids": []
+      }
+    ],
+    "city_alias": "astana",
+    "contact_groups": [
+      {
+        "contacts": [
+          {
+            "code": "70000001088071513",
+            "text": "https://instagram.com/rzs_media",
+            "type": "instagram",
+            "url": "https://instagram.com/rzs_media",
+            "value": "https://instagram.com/rzs_media"
+          }
+        ]
+      },
+      {
+        "contacts": [
+          {
+            "code": "70000001088071512",
+            "print_text": "+7‒700‒659‒23‒07",
+            "text": "+7‒700‒659‒23‒07",
+            "type": "phone",
+            "value": "+77006592307"
+          },
+          {
+            "code": "70000001088071514",
+            "text": "https://wa.me/77006592307?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%0A%0A%D0%9F%D0%B8%D1%88%D1%83%20%D0%B8%D0%B7%20%D0%BF%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F%202%D0%93%D0%98%D0%A1.%0A%0A",
+            "type": "whatsapp",
+            "url": "https://wa.me/77006592307?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%0A%0A%D0%9F%D0%B8%D1%88%D1%83%20%D0%B8%D0%B7%20%D0%BF%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F%202%D0%93%D0%98%D0%A1.%0A%0A",
+            "value": "https://wa.me/77006592307?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%0A%0A%D0%9F%D0%B8%D1%88%D1%83%20%D0%B8%D0%B7%20%D0%BF%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F%202%D0%93%D0%98%D0%A1.%0A%0A"
+          }
+        ],
+        "schedule": {
+          "Fri": {
+            "working_hours": [
+              {
+                "from": "12:00",
+                "to": "22:00"
+              }
+            ]
+          },
+          "Mon": {
+            "working_hours": [
+              {
+                "from": "12:00",
+                "to": "22:00"
+              }
+            ]
+          },
+          "Sat": {
+            "working_hours": [
+              {
+                "from": "12:00",
+                "to": "22:00"
+              }
+            ]
+          },
+          "Sun": {
+            "working_hours": [
+              {
+                "from": "12:00",
+                "to": "22:00"
+              }
+            ]
+          },
+          "Thu": {
+            "working_hours": [
+              {
+                "from": "12:00",
+                "to": "22:00"
+              }
+            ]
+          },
+          "Tue": {
+            "working_hours": [
+              {
+                "from": "12:00",
+                "to": "22:00"
+              }
+            ]
+          },
+          "Wed": {
+            "working_hours": [
+              {
+                "from": "12:00",
+                "to": "22:00"
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "dates": {
+      "created_at": "2024-04-01T02:00:00Z",
+      "updated_at": "2026-06-11T12:52:04Z"
+    },
+    "external_content": [
+      {
+        "count": 28,
+        "main_photo_url": "https://i4.photo.2gis.com/main/branch/68/70000001088071511/common",
+        "subtype": "common",
+        "type": "photo_album"
+      }
+    ],
+    "flags": {
+      "photos": true
+    },
+    "floors": {
+      "ground_count": 1
+    },
+    "full_name": "Астана, проспект Туран, 8/8",
+    "geometry": {
+      "centroid": "POINT(71.420595 51.15763)",
+      "selection": "POINT(71.420595 51.15763)"
+    },
+    "group": [
+      {
+        "geometry": {
+          "centroid": "POINT(71.420595 51.15763)",
+          "hover": "POLYGON((71.420564 51.157629,71.420597 51.157611,71.420625 51.157631,71.420593 51.157649,71.420564 51.157629))",
+          "selection": "POINT(71.420595 51.15763)"
+        },
+        "id": "70030076613525528",
+        "type": "building"
+      }
+    ],
+    "has_ads_model": false,
+    "has_apartments_info": false,
+    "has_discount": false,
+    "has_dynamic_congestion": false,
+    "has_exchange": false,
+    "has_goods": false,
+    "has_pinned_goods": false,
+    "has_realty": false,
+    "id": "70000001088071511",
+    "is_promoted": false,
+    "locale": "ru_KZ",
+    "name": "Rzs media",
+    "name_ex": {
+      "primary": "Rzs media"
+    },
+    "org": {
+      "branch_count": 1,
+      "id": "70000001088071510",
+      "name": "Rzs media",
+      "primary": "Rzs media"
+    },
+    "poi_category": "photo_services",
+    "point": {
+      "lat": 51.15763,
+      "lon": 71.420595
+    },
+    "purpose_code": 68,
+    "purpose_name": "Киоск",
+    "region_id": "68",
+    "reviews": {
+      "general_rating": 4.9,
+      "general_review_count": 162,
+      "general_review_count_with_stars": 236,
+      "is_reviewable": false,
+      "is_reviewable_on_flamp": true,
+      "items": [
+        {
+          "is_reviewable": true,
+          "tag": "2gis_reviews"
+        }
+      ],
+      "org_rating": 4.9,
+      "org_review_count": 162,
+      "org_review_count_with_stars": 236
+    },
+    "rubrics": [
+      {
+        "alias": "fotosjomka",
+        "id": "22379",
+        "kind": "primary",
+        "name": "Фотосъёмка",
+        "parent_id": "2",
+        "short_id": 22379
+      }
+    ],
+    "schedule": {
+      "Fri": {
+        "working_hours": [
+          {
+            "from": "12:00",
+            "to": "22:00"
+          }
+        ]
+      },
+      "Mon": {
+        "working_hours": [
+          {
+            "from": "12:00",
+            "to": "22:00"
+          }
+        ]
+      },
+      "Sat": {
+        "working_hours": [
+          {
+            "from": "12:00",
+            "to": "22:00"
+          }
+        ]
+      },
+      "Sun": {
+        "working_hours": [
+          {
+            "from": "12:00",
+            "to": "22:00"
+          }
+        ]
+      },
+      "Thu": {
+        "working_hours": [
+          {
+            "from": "12:00",
+            "to": "22:00"
+          }
+        ]
+      },
+      "Tue": {
+        "working_hours": [
+          {
+            "from": "12:00",
+            "to": "22:00"
+          }
+        ]
+      },
+      "Wed": {
+        "working_hours": [
+          {
+            "from": "12:00",
+            "to": "22:00"
+          }
+        ]
+      }
+    },
+    "segment_id": "0",
+    "timezone_offset": 300,
+    "type": "branch"
+  },
+  "meta": {
+    "code": 200,
+    "isFull": true,
+    "status": "success"
+  }
+}

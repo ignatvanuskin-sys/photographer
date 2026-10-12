@@ -1,0 +1,540 @@
+{
+  "brand": {
+    "name": "Rzs media",
+    "logo": null,
+    "tagline": "Моменты, которые не нужно объяснять",
+    "roles": ["фотограф", "видеограф"],
+    "accentColor": null
+  },
+  "contacts": {
+    "city": "Астана",
+    "address": "проспект Туран, 8/8",
+    "place": "Парк Астана, 1 этаж",
+    "geo": { "lat": 51.15763, "lng": 71.420595 },
+    "phone": "+7 700 659 23 07",
+    "whatsapp": "https://wa.me/77006592307",
+    "telegram": null,
+    "instagram": "https://instagram.com/rzs_media",
+    "taplink": null,
+    "hours": "ежедневно 12:00–22:00",
+    "map2gis": "https://2gis.kz/astana/firm/70000001088071511",
+    "mapGoogle": "https://www.google.com/maps/search/?api=1&query=51.15763,71.420595"
+  },
+  "hero": {
+    "desktop": {
+      "src": "/images/original/2gis-24.jpg",
+      "alt": "Площадка съёмки в Парке Астана вечером",
+      "w": 1440,
+      "h": 810
+    },
+    "mobile": {
+      "src": "/images/original/2gis-09.jpg",
+      "alt": "Пара идёт за руку по Парку Астана",
+      "w": 1440,
+      "h": 1920
+    },
+    "reason": "Оба кадра загружены в галерею самим владельцем карточки (пометка «Фотография от владельца»): это самая достоверная часть галереи. Для десктопа взят единственный горизонтальный вечерний кадр с воздухом по бокам под текст (1440×810, тёмный — белый текст читается без затемнения всего кадра). Для мобильного — вертикальный кадр пары (1440×1920): совпадает с форматом экрана, эмоция «вдвоём», лица в центре и не обрезаются."
+  },
+  "services": [
+    {
+      "id": "photo",
+      "title": "Фотосъёмка",
+      "description": "Съёмка в Парке Астана: одиночные, парные, семейные кадры и кадры с детьми.",
+      "includes": [],
+      "from": null
+    },
+    {
+      "id": "love-story",
+      "title": "Love story",
+      "description": "Парная съёмка: кадры вдвоём на прогулке по парку.",
+      "includes": [],
+      "from": null
+    },
+    {
+      "id": "video",
+      "title": "Видеосъёмка",
+      "description": "Видеосъёмка событий и съёмок на площадке: в профиле опубликованы работы с концертов и матчей.",
+      "includes": [],
+      "from": null
+    },
+    {
+      "id": "mobilograf",
+      "title": "Мобилограф",
+      "description": "Вертикальные видео, снятые на телефон.",
+      "includes": [],
+      "from": null
+    },
+    {
+      "id": "spinner-360",
+      "title": "Видеоспиннер 360",
+      "description": "Круговая замедленная съёмка на вращающейся платформе. Платформа установлена на площадке в парке.",
+      "includes": [],
+      "from": null
+    },
+    {
+      "id": "bodyart",
+      "title": "Боди-арт и аквагрим",
+      "description": "Рисунок на теле и аквагрим.",
+      "includes": [],
+      "from": null
+    }
+  ],
+  "packages": {
+    "enabled": false,
+    "items": []
+  },
+  "portfolio": [
+    {
+      "slug": "love-story",
+      "title": "Love story",
+      "category": "Love story",
+      "cover": "/images/original/2gis-09.jpg",
+      "photos": [
+        {
+          "src": "/images/original/2gis-09.jpg",
+          "alt": "Пара идёт за руку по Парку Астана",
+          "w": 1440,
+          "h": 1920,
+          "caption": null
+        },
+        {
+          "src": "/images/original/2gis-04.jpg",
+          "alt": "Пара на прогулке в парке",
+          "w": 1440,
+          "h": 2160,
+          "caption": null
+        },
+        {
+          "src": "/images/original/2gis-10.jpg",
+          "alt": "Пара обнимается в парке",
+          "w": 1440,
+          "h": 2160,
+          "caption": null
+        },
+        {
+          "src": "/images/original/2gis-11.jpg",
+          "alt": "Пара в парке, кадр из серии Love story",
+          "w": 1440,
+          "h": 2160,
+          "caption": null
+        }
+      ],
+      "facts": { "place": "Парк Астана", "season": null, "format": "Love story" }
+    },
+    {
+      "slug": "family-and-kids",
+      "title": "Семья и дети",
+      "category": "Семья и дети",
+      "cover": "/images/original/2gis-01.jpg",
+      "photos": [
+        {
+          "src": "/images/original/2gis-01.jpg",
+          "alt": "Ребёнок в парке на осенней прогулке",
+          "w": 1170,
+          "h": 1665,
+          "caption": null
+        },
+        {
+          "src": "/images/original/2gis-05.jpg",
+          "alt": "Мальчик прыгает в воду на площадке",
+          "w": 1440,
+          "h": 2160,
+          "caption": null
+        },
+        {
+          "src": "/images/original/2gis-06.jpg",
+          "alt": "Девочка в платье принцессы на празднике",
+          "w": 1440,
+          "h": 2160,
+          "caption": null
+        },
+        {
+          "src": "/images/original/2gis-12.jpg",
+          "alt": "Семья с детьми у аттракциона в парке",
+          "w": 1440,
+          "h": 2160,
+          "caption": null
+        },
+        {
+          "src": "/images/original/2gis-19.jpg",
+          "alt": "Семья с детьми у входа в парк",
+          "w": 1440,
+          "h": 1920,
+          "caption": null
+        },
+        {
+          "src": "/images/original/2gis-25.jpg",
+          "alt": "Малыш в парке",
+          "w": 1440,
+          "h": 1920,
+          "caption": null
+        }
+      ],
+      "facts": { "place": "Парк Астана", "season": null, "format": "Семейная съёмка" }
+    },
+    {
+      "slug": "print-and-magnets",
+      "title": "Моментальное фото и магниты",
+      "category": "Моментальное фото",
+      "cover": "/images/original/2gis-27.jpg",
+      "photos": [
+        {
+          "src": "/images/original/2gis-27.jpg",
+          "alt": "Готовая печать фотографии в руке",
+          "w": 1440,
+          "h": 1920,
+          "caption": null
+        },
+        {
+          "src": "/images/original/2gis-14.jpg",
+          "alt": "Гости с моментальным фото у павильона",
+          "w": 1440,
+          "h": 1920,
+          "caption": null
+        },
+        {
+          "src": "/images/original/2gis-15.jpg",
+          "alt": "Гостья парка у павильона с фотокамерой",
+          "w": 1440,
+          "h": 1080,
+          "caption": null
+        },
+        {
+          "src": "/images/original/2gis-16.jpg",
+          "alt": "Дети держат фото-магнит в парке",
+          "w": 1440,
+          "h": 1920,
+          "caption": null
+        },
+        {
+          "src": "/images/original/2gis-18.jpg",
+          "alt": "Фото-магнит с портретом в руке",
+          "w": 1440,
+          "h": 1920,
+          "caption": null
+        },
+        {
+          "src": "/images/original/2gis-20.jpg",
+          "alt": "Девушка с фото-магнитом",
+          "w": 1440,
+          "h": 1920,
+          "caption": null
+        },
+        {
+          "src": "/images/original/2gis-21.jpg",
+          "alt": "Гости парка с моментальным фото",
+          "w": 1440,
+          "h": 1920,
+          "caption": null
+        }
+      ],
+      "facts": { "place": "Парк Астана", "season": null, "format": "Моментальное фото" }
+    },
+    {
+      "slug": "park-guests",
+      "title": "Гости парка",
+      "category": "Гости парка",
+      "cover": "/images/original/2gis-03.jpg",
+      "photos": [
+        {
+          "src": "/images/original/2gis-03.jpg",
+          "alt": "Портрет гостьи парка",
+          "w": 1181,
+          "h": 1772,
+          "caption": null
+        },
+        {
+          "src": "/images/original/2gis-02.jpg",
+          "alt": "Гости парка на аттракционе",
+          "w": 1440,
+          "h": 1735,
+          "caption": null
+        },
+        {
+          "src": "/images/original/2gis-08.jpg",
+          "alt": "Группа гостей парка делает селфи",
+          "w": 1440,
+          "h": 959,
+          "caption": null
+        },
+        {
+          "src": "/images/original/2gis-17.jpg",
+          "alt": "Группа гостей в парке",
+          "w": 1440,
+          "h": 960,
+          "caption": null
+        }
+      ],
+      "facts": { "place": "Парк Астана", "season": null, "format": "Групповая съёмка" }
+    },
+    {
+      "slug": "evening-park",
+      "title": "Парк вечером",
+      "category": "Парк вечером",
+      "cover": "/images/original/2gis-24.jpg",
+      "photos": [
+        {
+          "src": "/images/original/2gis-24.jpg",
+          "alt": "Площадка съёмки в Парке Астана вечером",
+          "w": 1440,
+          "h": 810,
+          "caption": null
+        },
+        {
+          "src": "/images/original/2gis-22.jpg",
+          "alt": "Вечерние огни в парке",
+          "w": 1440,
+          "h": 1920,
+          "caption": null
+        },
+        {
+          "src": "/images/original/2gis-23.jpg",
+          "alt": "Гости парка вечером",
+          "w": 1440,
+          "h": 1920,
+          "caption": null
+        }
+      ],
+      "facts": { "place": "Парк Астана", "season": null, "format": "Вечерняя съёмка" }
+    },
+    {
+      "slug": "behind-the-scenes",
+      "title": "За кадром",
+      "category": "За кадром",
+      "cover": "/images/original/2gis-07.jpg",
+      "photos": [
+        {
+          "src": "/images/original/2gis-07.jpg",
+          "alt": "Фотограф с камерой в Парке Астана",
+          "w": 1440,
+          "h": 2560,
+          "caption": null
+        },
+        {
+          "src": "/images/original/2gis-13.jpg",
+          "alt": "Фотограф с камерой и котёнком",
+          "w": 1440,
+          "h": 1920,
+          "caption": null
+        },
+        {
+          "src": "/images/original/2gis-26.jpg",
+          "alt": "Фотограф с ребёнком в парке",
+          "w": 1440,
+          "h": 1920,
+          "caption": null
+        },
+        {
+          "src": "/images/original/2gis-28.jpg",
+          "alt": "Пункт съёмки в парке",
+          "w": 1440,
+          "h": 2148,
+          "caption": null
+        }
+      ],
+      "facts": { "place": "Парк Астана", "season": null, "format": "Рабочие кадры" }
+    }
+  ],
+  "video": {
+    "showreel": null,
+    "items": [
+      {
+        "id": "spinner-360",
+        "title": "Видеоспиннер 360",
+        "poster": "/images/original/2gis-24.jpg",
+        "href": "https://www.instagram.com/rzs_media/",
+        "note": "Платформа для круговой съёмки установлена на площадке в парке."
+      },
+      {
+        "id": "events",
+        "title": "Концерты и события",
+        "poster": "/images/original/ig-22.jpg",
+        "href": "https://www.instagram.com/rzs_media/",
+        "note": "Кадр из публикации профиля."
+      }
+    ]
+  },
+  "reviews": {
+    "source": "2ГИС",
+    "rating": 4.9,
+    "count": 236,
+    "reviewsCount": 162,
+    "items": [
+      {
+        "author": "Nurdaulet .",
+        "text": "фотограф Сабина молодчина, отлично сфоткала и хорошо обслужила❤️",
+        "date": "25 августа 2026",
+        "sourceUrl": "https://2gis.kz/astana/firm/70000001088071511/tab/reviews"
+      },
+      {
+        "author": "рус 111",
+        "text": "Бомбовый кадр поймала😮‍💨🔥\nСабина красавица и лучший фотограф😁👍🏻",
+        "date": "23 августа 2026",
+        "sourceUrl": "https://2gis.kz/astana/firm/70000001088071511/tab/reviews"
+      },
+      {
+        "author": "adelya 🤍",
+        "text": "Каждый раз фотографии получаются просто невероятными! 🥹❤️‍🩹 Мы уже не первый раз обращаемся к фотографу Сабине и всегда остаёмся в восторге от результата. Очень нравится, как она чувствует кадр, передаёт атмосферу и делает фотографии живыми и красивыми. Спасибо тебе большое! 🤍 Обязательно будем обращаться ещё!!!",
+        "date": "21 августа 2026",
+        "sourceUrl": "https://2gis.kz/astana/firm/70000001088071511/tab/reviews"
+      },
+      {
+        "author": "Акпар Маралбай",
+        "text": "Очень классный фотограф Сабина!профи в своем деле👍",
+        "date": "17 августа 2026",
+        "sourceUrl": "https://2gis.kz/astana/firm/70000001088071511/tab/reviews"
+      },
+      {
+        "author": "Оралбек Болатханұлы",
+        "text": "Жұмыстарын жақсы біледі естен кетпейтін адамдарға естелік сыйлайды жұмыстарыныз алға баса берсін кішкентай балалармен қалай жұмыс жасау керектігін біледі🙂",
+        "date": "8 июня 2026",
+        "sourceUrl": "https://2gis.kz/astana/firm/70000001088071511/tab/reviews"
+      },
+      {
+        "author": "Диляра Сериковна",
+        "text": "Спасибо большое, ребята такие молодцы. Хорошо фоткают, быстро готовят. Мы забыли забрать свое фото, и нас бесплатно пересняли и дали фото бесплатно. Вот такие порядочные ребята. Спасибо большое",
+        "date": "12 июля 2025",
+        "sourceUrl": "https://2gis.kz/astana/firm/70000001088071511/tab/reviews"
+      }
+    ]
+  },
+  "process": [
+    {
+      "title": "Заявка и дата",
+      "text": "Вы пишете в WhatsApp, звоните или оставляете заявку на сайте: имя, формат и удобная дата."
+    },
+    {
+      "title": "Идея и локация",
+      "text": "Договариваемся, что снимаем и где. Основная площадка — Парк Астана; съёмка на выезде тоже возможна."
+    },
+    {
+      "title": "Съёмка",
+      "text": "Работаем в парке ежедневно с 12:00 до 22:00. Если нужен другой день или время — обсуждаем отдельно."
+    },
+    {
+      "title": "Отбор и обработка",
+      "text": "Выбираем лучшие кадры и обрабатываем их. Моментальное фото и магниты печатаем сразу на месте."
+    },
+    {
+      "title": "Передача материалов",
+      "text": "Отдаём готовые материалы тем способом, который вам удобнее. О сроках договоримся заранее."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Где вы снимаете?",
+      "a": "Основная площадка — Парк Астана, проспект Туран 8/8, 1 этаж. В карточке 2ГИС профиль отмечен как «фотограф / видеосъёмка на выезде», поэтому съёмку можно обсудить и на другой локации."
+    },
+    {
+      "q": "Как забронировать дату?",
+      "a": "Напишите в WhatsApp или оставьте заявку на сайте: укажите формат и удобную дату. Ответим в течение дня."
+    },
+    {
+      "q": "Сколько стоит съёмка?",
+      "a": "Стоимость зависит от формата, даты и локации. Напишите, что планируете, — ответим точной ценой."
+    },
+    {
+      "q": "Какие форматы вы снимаете?",
+      "a": "Фотосъёмка, love story, видеосъёмка, мобилограф, видеоспиннер 360, боди-арт и аквагрим. Все форматы перечислены в разделе «Форматы»."
+    },
+    {
+      "q": "Когда будут готовы материалы?",
+      "a": "Срок зависит от формата и объёма обработки — назовём его, когда обсудим заказ. Моментальное фото и магниты печатаются на месте."
+    },
+    {
+      "q": "Можно оплатить картой?",
+      "a": "Да. В карточке 2ГИС указаны четыре способа оплаты: наличными, картой, переводом с карты и по QR-коду."
+    },
+    {
+      "q": "Что делать, если нужная дата занята?",
+      "a": "Напишите — предложим ближайшее свободное время или подберём другую локацию."
+    },
+    {
+      "q": "Снимаете ли вы детей?",
+      "a": "Да. В отзывах клиенты отдельно отмечают работу с маленькими детьми, а в портфолио есть серия «Семья и дети»."
+    }
+  ],
+  "terms": {
+    "prepayment": null,
+    "delivery": null,
+    "retouching": null,
+    "responseSla": "в течение дня"
+  },
+  "sections": {
+    "enabled": [
+      "hero",
+      "manifesto",
+      "featuredWork",
+      "gallery",
+      "services",
+      "process",
+      "reviews",
+      "about",
+      "booking",
+      "faq",
+      "contacts"
+    ]
+  },
+  "seo": {
+    "title": "Фотограф и видеограф в Астане: love story, фотосъёмка | Rzs media",
+    "description": "Фото- и видеосъёмка в Парке Астана: love story, семейные кадры, моментальное фото и магниты, видеоспиннер 360. 4.9 в 2ГИС — 236 оценок. Забронировать дату."
+  },
+  "analytics": {
+    "ga4": null,
+    "ym": null
+  },
+  "mode": "demo",
+  "_sources": {
+    "brand.name": "2gis card (firm/70000001088071511), 12.10.2026",
+    "brand.tagline": "instagram @rzs_media, подпись поста DTJLZFBiAQH (05.01.2026): «Моменты, которые не нужно объяснять»",
+    "brand.roles": "2gis title страницы карточки: «Фотограф / видеосъемка на выезде»; instagram bio: «Профессиональная видеосъемка»",
+    "contacts.city": "2gis card, adm_div: Астана",
+    "contacts.address": "2gis card, address_name: «проспект Туран, 8/8»",
+    "contacts.place": "2gis card, landmark_name «парк Астана» + floors.ground_count = 1 этаж",
+    "contacts.geo": "2gis card, geometry.centroid POINT(71.420595 51.15763)",
+    "contacts.phone": "2gis card, contact_groups[].contacts[].print_text «+7‒700‒659‒23‒07»",
+    "contacts.whatsapp": "2gis card, contact_groups[].contacts[].url wa.me/77006592307",
+    "contacts.instagram": "2gis card, contact_groups[].contacts[].url instagram.com/rzs_media",
+    "contacts.telegram": "не найдено: в карточке 2ГИС и в профиле Instagram Telegram не указан",
+    "contacts.taplink": "не найдено: в профиле Instagram ссылок в шапке нет (bio_links = [])",
+    "contacts.hours": "2gis card, schedule: Пн–Вс 12:00–22:00 (все дни одинаковые)",
+    "contacts.map2gis": "2gis card, URL карточки",
+    "contacts.mapGoogle": "координаты из 2gis card (51.15763, 71.420595), ссылка построена по ним",
+    "hero": "выбор кадра: горизонтальный desktop 2gis-24 и вертикальный mobile 2gis-09 — оба помечены в галерее 2ГИС как «Фотография от владельца»",
+    "hero.desktop": "2gis gallery, фото «от владельца» (503905b6), 1440×810",
+    "hero.mobile": "2gis gallery, фото «от владельца» (23bcb63a), 1440×1920",
+    "services": "instagram bio @rzs_media + рубрика 2ГИС «Фотосъёмка»; форматы видеоспиннер 360, love story, мобилограф, видеосъёмка, боди-арт и аквагрим — из био",
+    "services.photo.title": "2gis card, рубрика «Фотосъёмка» + instagram bio «Услуги фотографа»",
+    "services.photo.description": "2gis gallery (парные, семейные, детские кадры в Парке Астана), 12.10.2026",
+    "services.love-story.title": "instagram bio @rzs_media: «LOVE STORY»",
+    "services.love-story.description": "2gis gallery: серия кадров пары на прогулке в парке",
+    "services.video.title": "instagram bio @rzs_media: «Профессиональная видеосъемка»",
+    "services.video.description": "instagram @rzs_media: публикации с концерта RAIM 11.11.24 и матча BARYS (highlights)",
+    "services.mobilograf.title": "instagram bio @rzs_media: «Услуги мобилографа»",
+    "services.mobilograf.description": "instagram @rzs_media: bio + вертикальные публикации/reels",
+    "services.spinner-360.title": "instagram bio @rzs_media: «Видеоспиннер 360»",
+    "services.spinner-360.description": "2gis gallery, фото «от владельца»: платформа 360 на площадке в парке",
+    "services.bodyart.title": "instagram bio @rzs_media: «Боди арт и аквагрим»",
+    "services.bodyart.description": "instagram @rzs_media: bio",
+    "portfolio": "2gis gallery карточки: 28 фото (альбомы «Услуги» 10, «От владельца» 5, «От посетителей» 23, «Товары» 3, «Снаружи» 1); группировка по сериям — редакторское допущение, см. DATA_REPORT.md §3",
+    "video": "ссылки ведут в профиль instagram.com/rzs_media; файлов видео в открытом доступе нет, поэтому плеер не подключался",
+    "reviews.rating": "2gis card, reviews.general_rating = 4.9 (org_rating 4.9), 12.10.2026",
+    "reviews.count": "2gis card, reviews.general_review_count_with_stars = 236 (оценок со звёздами)",
+    "reviews.reviewsCount": "2gis card, reviews.general_review_count = 162 (отзывов с текстом)",
+    "reviews.items.0.text": "2gis reviews, Nurdaulet ., 25 августа 2026 (дословно)",
+    "reviews.items.1.text": "2gis reviews, рус 111, 23 августа 2026 (дословно)",
+    "reviews.items.2.text": "2gis reviews, adelya 🤍, 21 августа 2026 (дословно)",
+    "reviews.items.3.text": "2gis reviews, Акпар Маралбай, 17 августа 2026 (дословно)",
+    "reviews.items.4.text": "2gis reviews, Оралбек Болатханұлы, 8 июня 2026 (дословно)",
+    "reviews.items.5.text": "2gis reviews, Диляра Сериковна, 12 июля 2025 (дословно)",
+    "process": "шаги описаны по подтверждённым источникам: часы работы и площадка — 2gis card; печать на месте — отзывы и фото печати в галерее; сроки не указаны нигде, поэтому без цифр",
+    "faq": "вопросы собраны из данных карточки 2ГИС (часы, адрес, способы оплаты, формат «на выезде») и отзывов; ответы без неподтверждённых цифр",
+    "terms.prepayment": "не найдено: условия предоплаты публично не указаны",
+    "terms.delivery": "не найдено: сроки передачи материалов публично не указаны",
+    "terms.retouching": "не найдено: условия ретуши публично не указаны",
+    "terms.responseSla": "нейтральное значение по умолчанию (ТЗ, раздел 4)",
+    "seo.title": "составлено из подтверждённых форматов (фото, видео, love story) и города",
+    "seo.description": "составлено из подтверждённых данных карточки 2ГИС (форматы, площадка, рейтинг)",
+    "sections.enabled": "вычисляется из данных в lib/sections.ts"
+  }
+}

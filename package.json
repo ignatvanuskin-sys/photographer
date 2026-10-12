@@ -1,0 +1,33 @@
+{
+  "name": "rzs-media",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Премиальный сайт-портфолио Rzs media (фото/видео, Астана). Демо-концепт.",
+  "scripts": {
+    "dev": "next dev",
+    "validate": "tsx scripts/validate-business.ts",
+    "check": "tsx scripts/check-functions.ts",
+    "build": "npm run validate && npm run check && next build",
+    "start": "next start",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit",
+    "optimize": "tsx scripts/optimize-images.ts"
+  },
+  "dependencies": {
+    "next": "14.2.33",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "zod": "3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "20.14.10",
+    "@types/react": "18.3.3",
+    "@types/react-dom": "18.3.0",
+    "autoprefixer": "10.4.19",
+    "postcss": "8.4.39",
+    "sharp": "0.33.4",
+    "tailwindcss": "3.4.6",
+    "tsx": "4.16.2",
+    "typescript": "5.5.4"
+  }
+}

@@ -1,0 +1,1177 @@
+{
+  "2gis-01.jpg": {
+    "src": "/images/original/2gis-01.jpg",
+    "width": 1170,
+    "height": 1665,
+    "aspect": 0.7027,
+    "dominant": "#9898a8",
+    "blurDataURL": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAABwAwCdASoMABEAPxFysFAsJqSisAgBgCIJaACdACDZcvIpwAAA/uMuQAMYL1Gb+3s4JyU9IttmX3EfrMNJD54U84BJ9xjdUzHftqfnVea5sYZ4zvzUuUWEIdoAAA==",
+    "variants": [
+      {
+        "width": 480,
+        "avif": "/images/optimized/2gis-01-480.avif",
+        "webp": "/images/optimized/2gis-01-480.webp"
+      },
+      {
+        "width": 960,
+        "avif": "/images/optimized/2gis-01-960.avif",
+        "webp": "/images/optimized/2gis-01-960.webp"
+      },
+      {
+        "width": 1170,
+        "avif": "/images/optimized/2gis-01-1170.avif",
+        "webp": "/images/optimized/2gis-01-1170.webp"
+      }
+    ]
+  },
+  "2gis-02.jpg": {
+    "src": "/images/original/2gis-02.jpg",
+    "width": 1440,
+    "height": 1735,
+    "aspect": 0.83,
+    "dominant": "#185898",
+    "blurDataURL": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADwAQCdASoMAA4ABABoJbACdAD0lGQmvbYA/qZnNRYNbS3pjY0AmWZQhTVorbUmkgLtGW66jJ8jat+c+Duim4kbncGAWHVSehUAAA==",
+    "variants": [
+      {
+        "width": 480,
+        "avif": "/images/optimized/2gis-02-480.avif",
+        "webp": "/images/optimized/2gis-02-480.webp"
+      },
+      {
+        "width": 960,
+        "avif": "/images/optimized/2gis-02-960.avif",
+        "webp": "/images/optimized/2gis-02-960.webp"
+      },
+      {
+        "width": 1440,
+        "avif": "/images/optimized/2gis-02-1440.avif",
+        "webp": "/images/optimized/2gis-02-1440.webp"
+      }
+    ]
+  },
+  "2gis-03.jpg": {
+    "src": "/images/original/2gis-03.jpg",
+    "width": 1181,
+    "height": 1772,
+    "aspect": 0.6665,
+    "dominant": "#081808",
+    "blurDataURL": "data:image/webp;base64,UklGRoQAAABXRUJQVlA4IHgAAAAQBACdASoMABIAPxFysFAsJqSisAgBgCIJagC06CPcKGRPRZJxhrIDAAD3u40tHJAt4eJ5/TKckpYyeRv7xbXGO9iFrd1qa/P+E3zPRO3xWcHMCk2A2SPGC/MwN3qzSdr4gbtj/6dk/wZi9T/8dk/wWxezj8tQAAA=",
+    "variants": [
+      {
+        "width": 480,
+        "avif": "/images/optimized/2gis-03-480.avif",
+        "webp": "/images/optimized/2gis-03-480.webp"
+      },
+      {
+        "width": 960,
+        "avif": "/images/optimized/2gis-03-960.avif",
+        "webp": "/images/optimized/2gis-03-960.webp"
+      },
+      {
+        "width": 1181,
+        "avif": "/images/optimized/2gis-03-1181.avif",
+        "webp": "/images/optimized/2gis-03-1181.webp"
+      }
+    ]
+  },
+  "2gis-04.jpg": {
+    "src": "/images/original/2gis-04.jpg",
+    "width": 1440,
+    "height": 2160,
+    "aspect": 0.6667,
+    "dominant": "#080808",
+    "blurDataURL": "data:image/webp;base64,UklGRnoAAABXRUJQVlA4IG4AAACQAwCdASoMABIAPxFysFAsJqSisAgBgCIJQBfrBshLruEti6dAAP1O8+kwP2svhRNJsPOHU9Se0DiXPhIy0w/4vMao1/CZCNCaJZyro6u/5pSHqgLLH744nSEQGyGPwdADG5P0AROgyRIKTDbwAA==",
+    "variants": [
+      {
+        "width": 480,
+        "avif": "/images/optimized/2gis-04-480.avif",
+        "webp": "/images/optimized/2gis-04-480.webp"
+      },
+      {
+        "width": 960,
+        "avif": "/images/optimized/2gis-04-960.avif",
+        "webp": "/images/optimized/2gis-04-960.webp"
+      },
+      {
+        "width": 1440,
+        "avif": "/images/optimized/2gis-04-1440.avif",
+        "webp": "/images/optimized/2gis-04-1440.webp"
+      }
+    ]
+  },
+  "2gis-05.jpg": {
+    "src": "/images/original/2gis-05.jpg",
+    "width": 1440,
+    "height": 2160,
+    "aspect": 0.6667,
+    "dominant": "#f8f8f8",
+    "blurDataURL": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAACwAwCdASoMABIAPxFwsFAsJiSisAgBgCIJZgCsACHoTJ7i6d14oAD+7T7tV7Uxg9qFTb/dmVN2k65qJUo1Mctl0mtk96za+tmCKE9Q26RrPi5dJ+UICidNb94D26XL7TPiAAAA",
+    "variants": [
+      {
+        "width": 480,
+        "avif": "/images/optimized/2gis-05-480.avif",
+        "webp": "/images/optimized/2gis-05-480.webp"
+      },
+      {
+        "width": 960,
+        "avif": "/images/optimized/2gis-05-960.avif",
+        "webp": "/images/optimized/2gis-05-960.webp"
+      },
+      {
+        "width": 1440,
+        "avif": "/images/optimized/2gis-05-1440.avif",
+        "webp": "/images/optimized/2gis-05-1440.webp"
+      }
+    ]
+  },
+  "2gis-06.jpg": {
+    "src": "/images/original/2gis-06.jpg",
+    "width": 1440,
+    "height": 2160,
+    "aspect": 0.6667,
+    "dominant": "#f8e8f8",
+    "blurDataURL": "data:image/webp;base64,UklGRoYAAABXRUJQVlA4IHoAAACwAwCdASoMABIAPxFysFAsJqSisAgBgCIJQBOgA2wA+0B9uFf8AAD+MtYks4uLSU+KPlIrIvvXeTl7boribMvYySSt3lERh9rhwHKyhHKcyg0DBVbjAAIj25JIHLk8D0GbBlItfpFJOXUlY+40llocJs5ekFFyeAAAAA==",
+    "variants": [
+      {
+        "width": 480,
+        "avif": "/images/optimized/2gis-06-480.avif",
+        "webp": "/images/optimized/2gis-06-480.webp"
+      },
+      {
+        "width": 960,
+        "avif": "/images/optimized/2gis-06-960.avif",
+        "webp": "/images/optimized/2gis-06-960.webp"
+      },
+      {
+        "width": 1440,
+        "avif": "/images/optimized/2gis-06-1440.avif",
+        "webp": "/images/optimized/2gis-06-1440.webp"
+      }
+    ]
+  },
+  "2gis-07.jpg": {
+    "src": "/images/original/2gis-07.jpg",
+    "width": 1440,
+    "height": 2560,
+    "aspect": 0.5625,
+    "dominant": "#080808",
+    "blurDataURL": "data:image/webp;base64,UklGRowAAABXRUJQVlA4IIAAAAAwBACdASoMABUAPxFysFAsJqSisAgBgCIJQBAANwAHNu8yozVK0lUmaAAA/ZiOsKA00Hmeg0Y7OSaFfjL/znzA/u/4aIMYZ84kpuspgDF8x72vidsqrG4QxhV7J+fIh5Vmv+lQKy5TO6jT1A/Gm8NKcUZV7ybx32V+S5gfS4AAAA==",
+    "variants": [
+      {
+        "width": 480,
+        "avif": "/images/optimized/2gis-07-480.avif",
+        "webp": "/images/optimized/2gis-07-480.webp"
+      },
+      {
+        "width": 960,
+        "avif": "/images/optimized/2gis-07-960.avif",
+        "webp": "/images/optimized/2gis-07-960.webp"
+      },
+      {
+        "width": 1440,
+        "avif": "/images/optimized/2gis-07-1440.avif",
+        "webp": "/images/optimized/2gis-07-1440.webp"
+      }
+    ]
+  },
+  "2gis-08.jpg": {
+    "src": "/images/original/2gis-08.jpg",
+    "width": 1440,
+    "height": 959,
+    "aspect": 1.5016,
+    "dominant": "#a8b8c8",
+    "blurDataURL": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAADwAQCdASoMAAgABABoJQBOgB9laa6/jDAA/nk2XeIXbndzcgU86dDXB5SqczcOxwMGcyVnxdKpTQ/vbzaAAAAA",
+    "variants": [
+      {
+        "width": 480,
+        "avif": "/images/optimized/2gis-08-480.avif",
+        "webp": "/images/optimized/2gis-08-480.webp"
+      },
+      {
+        "width": 960,
+        "avif": "/images/optimized/2gis-08-960.avif",
+        "webp": "/images/optimized/2gis-08-960.webp"
+      },
+      {
+        "width": 1440,
+        "avif": "/images/optimized/2gis-08-1440.avif",
+        "webp": "/images/optimized/2gis-08-1440.webp"
+      }
+    ]
+  },
+  "2gis-09.jpg": {
+    "src": "/images/original/2gis-09.jpg",
+    "width": 1440,
+    "height": 1920,
+    "aspect": 0.75,
+    "dominant": "#181818",
+    "blurDataURL": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAACQAQCdASoMABAABABoJaQAAlCZ1MAA/u7NN7kx7DYkAoKEYAEzyAWmo9hPPYgwUIPJJbCAgC8X5fnElB67VfeX1PmfIxHuAHXncgAA",
+    "variants": [
+      {
+        "width": 480,
+        "avif": "/images/optimized/2gis-09-480.avif",
+        "webp": "/images/optimized/2gis-09-480.webp"
+      },
+      {
+        "width": 960,
+        "avif": "/images/optimized/2gis-09-960.avif",
+        "webp": "/images/optimized/2gis-09-960.webp"
+      },
+      {
+        "width": 1440,
+        "avif": "/images/optimized/2gis-09-1440.avif",
+        "webp": "/images/optimized/2gis-09-1440.webp"
+      }
+    ]
+  },
+  "2gis-10.jpg": {
+    "src": "/images/original/2gis-10.jpg",
+    "width": 1440,
+    "height": 2160,
+    "aspect": 0.6667,
+    "dominant": "#080808",
+    "blurDataURL": "data:image/webp;base64,UklGRnoAAABXRUJQVlA4IG4AAADQAwCdASoMABIAPxFysFAsJqSisAgBgCIJYgCdABul583EHPMJTYAA++9udnyDgof4LmNQc4jNmmiWCDaEGDdXzRpQggx+fVQX9RmjAk0XXShp6ItWQDAy4n8cXm3akJLb3EZYSA9WWW+eiCgAAA==",
+    "variants": [
+      {
+        "width": 480,
+        "avif": "/images/optimized/2gis-10-480.avif",
+        "webp": "/images/optimized/2gis-10-480.webp"
+      },
+      {
+        "width": 960,
+        "avif": "/images/optimized/2gis-10-960.avif",
+        "webp": "/images/optimized/2gis-10-960.webp"
+      },
+      {
+        "width": 1440,
+        "avif": "/images/optimized/2gis-10-1440.avif",
+        "webp": "/images/optimized/2gis-10-1440.webp"
+      }
+    ]
+  },
+  "2gis-11.jpg": {
+    "src": "/images/original/2gis-11.jpg",
+    "width": 1440,
+    "height": 2160,
+    "aspect": 0.6667,
+    "dominant": "#080808",
+    "blurDataURL": "data:image/webp;base64,UklGRnoAAABXRUJQVlA4IG4AAADQAwCdASoMABIAPxFysFAsJqSisAgBgCIJQBibA3JtkxX7xS/6EmgA9rwGZ8VqHOSI3EMnpg8s/i7sWopYtPz+njr1Hp/mvkW6aHbM874NjUXBdzCrLqlqbedQKOjjp0w/bbTxSZ0CCFwpLIAAAA==",
+    "variants": [
+      {
+        "width": 480,
+        "avif": "/images/optimized/2gis-11-480.avif",
+        "webp": "/images/optimized/2gis-11-480.webp"
+      },
+      {
+        "width": 960,
+        "avif": "/images/optimized/2gis-11-960.avif",
+        "webp": "/images/optimized/2gis-11-960.webp"
+      },
+      {
+        "width": 1440,
+        "avif": "/images/optimized/2gis-11-1440.avif",
+        "webp": "/images/optimized/2gis-11-1440.webp"
+      }
+    ]
+  },
+  "2gis-12.jpg": {
+    "src": "/images/original/2gis-12.jpg",
+    "width": 1440,
+    "height": 2160,
+    "aspect": 0.6667,
+    "dominant": "#687888",
+    "blurDataURL": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAABwAwCdASoMABIAPxFysFAsJqSisAgBgCIJagCw7Bs3M+F7nQAA/rv7iiujxFuPVHsCH4bxTbW6c0xTzsyDZnfK0JlG+QUPevWF8dSQ6q2GtPO2V3cUeGkLF3Q1S35TJw2kyjxIQAA=",
+    "variants": [
+      {
+        "width": 480,
+        "avif": "/images/optimized/2gis-12-480.avif",
+        "webp": "/images/optimized/2gis-12-480.webp"
+      },
+      {
+        "width": 960,
+        "avif": "/images/optimized/2gis-12-960.avif",
+        "webp": "/images/optimized/2gis-12-960.webp"
+      },
+      {
+        "width": 1440,
+        "avif": "/images/optimized/2gis-12-1440.avif",
+        "webp": "/images/optimized/2gis-12-1440.webp"
+      }
+    ]
+  },
+  "2gis-13.jpg": {
+    "src": "/images/original/2gis-13.jpg",
+    "width": 1440,
+    "height": 1920,
+    "aspect": 0.75,
+    "dominant": "#080818",
+    "blurDataURL": "data:image/webp;base64,UklGRnoAAABXRUJQVlA4IG4AAABQAgCdASoMABAABABoJZACdEf/i15rW26C1fgA/qnY8MECCipkUyFr8NNWDu80bGtKwfIw6gLRM66jcI5KFhAOSBTA14CCifStvuJ4doNtgu8VQPPj+j0Q+xZrxk2vpeRshGQ2u8Tipi5v92GUAA==",
+    "variants": [
+      {
+        "width": 480,
+        "avif": "/images/optimized/2gis-13-480.avif",
+        "webp": "/images/optimized/2gis-13-480.webp"
+      },
+      {
+        "width": 960,
+        "avif": "/images/optimized/2gis-13-960.avif",
+        "webp": "/images/optimized/2gis-13-960.webp"
+      },
+      {
+        "width": 1440,
+        "avif": "/images/optimized/2gis-13-1440.avif",
+        "webp": "/images/optimized/2gis-13-1440.webp"
+      }
+    ]
+  },
+  "2gis-14.jpg": {
+    "src": "/images/original/2gis-14.jpg",
+    "width": 1440,
+    "height": 1920,
+    "aspect": 0.75,
+    "dominant": "#080808",
+    "blurDataURL": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAAAwAgCdASoMABAABABoJYwC7AYwdqyZr3R4QAD9kB0d55sv//TXutcPLs5pbaeOxXgXlFKbA4Xp+fMuqOCipjnzAPcdONzk/uH7fIywmaDnyA3c6sxgZcgb25gEnb5AAAA=",
+    "variants": [
+      {
+        "width": 480,
+        "avif": "/images/optimized/2gis-14-480.avif",
+        "webp": "/images/optimized/2gis-14-480.webp"
+      },
+      {
+        "width": 960,
+        "avif": "/images/optimized/2gis-14-960.avif",
+        "webp": "/images/optimized/2gis-14-960.webp"
+      },
+      {
+        "width": 1440,
+        "avif": "/images/optimized/2gis-14-1440.avif",
+        "webp": "/images/optimized/2gis-14-1440.webp"
+      }
+    ]
+  },
+  "2gis-15.jpg": {
+    "src": "/images/original/2gis-15.jpg",
+    "width": 1440,
+    "height": 1080,
+    "aspect": 1.3333,
+    "dominant": "#181818",
+    "blurDataURL": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAAAQAgCdASoMAAkABABoJYwC/OD5haKeLIOAAP6fu6Kmb++xfREJsFVghPdmAfAQUhw/pywKDGl0KFdrSmq3OaCKhjzWAA==",
+    "variants": [
+      {
+        "width": 480,
+        "avif": "/images/optimized/2gis-15-480.avif",
+        "webp": "/images/optimized/2gis-15-480.webp"
+      },
+      {
+        "width": 960,
+        "avif": "/images/optimized/2gis-15-960.avif",
+        "webp": "/images/optimized/2gis-15-960.webp"
+      },
+      {
+        "width": 1440,
+        "avif": "/images/optimized/2gis-15-1440.avif",
+        "webp": "/images/optimized/2gis-15-1440.webp"
+      }
+    ]
+  },
+  "2gis-16.jpg": {
+    "src": "/images/original/2gis-16.jpg",
+    "width": 1440,
+    "height": 1920,
+    "aspect": 0.75,
+    "dominant": "#787868",
+    "blurDataURL": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAAAwAgCdASoMABAABABoJbACsADdSqN6hBXbAADh4nsDFsVfcabrbl9cftExmi06p0491Xp+wqCW9c3m+KqrgGp3K1GQGeFI1AWY441DmBayhIbkyojKxu4AAAA=",
+    "variants": [
+      {
+        "width": 480,
+        "avif": "/images/optimized/2gis-16-480.avif",
+        "webp": "/images/optimized/2gis-16-480.webp"
+      },
+      {
+        "width": 960,
+        "avif": "/images/optimized/2gis-16-960.avif",
+        "webp": "/images/optimized/2gis-16-960.webp"
+      },
+      {
+        "width": 1440,
+        "avif": "/images/optimized/2gis-16-1440.avif",
+        "webp": "/images/optimized/2gis-16-1440.webp"
+      }
+    ]
+  },
+  "2gis-17.jpg": {
+    "src": "/images/original/2gis-17.jpg",
+    "width": 1440,
+    "height": 960,
+    "aspect": 1.5,
+    "dominant": "#080808",
+    "blurDataURL": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADwAQCdASoMAAgABABoJYwCw7DdR+7ekIAA/uX7rmIK27c0lyGbLtZK0H8YhEsRtWD4tTW0HA7Ps43J5ceGxTN9yE3N7F5wjWNoDmfsVcAAAA==",
+    "variants": [
+      {
+        "width": 480,
+        "avif": "/images/optimized/2gis-17-480.avif",
+        "webp": "/images/optimized/2gis-17-480.webp"
+      },
+      {
+        "width": 960,
+        "avif": "/images/optimized/2gis-17-960.avif",
+        "webp": "/images/optimized/2gis-17-960.webp"
+      },
+      {
+        "width": 1440,
+        "avif": "/images/optimized/2gis-17-1440.avif",
+        "webp": "/images/optimized/2gis-17-1440.webp"
+      }
+    ]
+  },
+  "2gis-18.jpg": {
+    "src": "/images/original/2gis-18.jpg",
+    "width": 1440,
+    "height": 1920,
+    "aspect": 0.75,
+    "dominant": "#383838",
+    "blurDataURL": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAAAQAgCdASoMABAABABoJYwC7ADZqLU3P6QAAOHEw7y6Cviull/UMcwvcUbHnbCZvT31xa8RGpxeRr85vf62ZmFlNwi4nHBJoYui3Fmj3oGeon3uqNIFFGTwAAA=",
+    "variants": [
+      {
+        "width": 480,
+        "avif": "/images/optimized/2gis-18-480.avif",
+        "webp": "/images/optimized/2gis-18-480.webp"
+      },
+      {
+        "width": 960,
+        "avif": "/images/optimized/2gis-18-960.avif",
+        "webp": "/images/optimized/2gis-18-960.webp"
+      },
+      {
+        "width": 1440,
+        "avif": "/images/optimized/2gis-18-1440.avif",
+        "webp": "/images/optimized/2gis-18-1440.webp"
+      }
+    ]
+  },
+  "2gis-19.jpg": {
+    "src": "/images/original/2gis-19.jpg",
+    "width": 1440,
+    "height": 1920,
+    "aspect": 0.75,
+    "dominant": "#080808",
+    "blurDataURL": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAADwAQCdASoMABAABABoJYwCw7Ywda/lvIAA/ieOeuVYkL/x1WRDUp5i8KBdBI38fot5cZQptHROf5fIyWoD2jfXfsqtiZk/gMgzd4XJLP1uLoe6ZSC7RQWIgAA=",
+    "variants": [
+      {
+        "width": 480,
+        "avif": "/images/optimized/2gis-19-480.avif",
+        "webp": "/images/optimized/2gis-19-480.webp"
+      },
+      {
+        "width": 960,
+        "avif": "/images/optimized/2gis-19-960.avif",
+        "webp": "/images/optimized/2gis-19-960.webp"
+      },
+      {
+        "width": 1440,
+        "avif": "/images/optimized/2gis-19-1440.avif",
+        "webp": "/images/optimized/2gis-19-1440.webp"
+      }
+    ]
+  },
+  "2gis-20.jpg": {
+    "src": "/images/original/2gis-20.jpg",
+    "width": 1440,
+    "height": 1920,
+    "aspect": 0.75,
+    "dominant": "#080808",
+    "blurDataURL": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAAAwAgCdASoMABAABABoJbACdEf/gXQhshy3gAD598A0DAV4gSCG9J/R03vKFpUQGINDN+LIO29yYuwN9IbxU1r9FLTmzm+wXe/MKlUnbcZIn0ahQNzxhXVVkzx1psmlQDYAAA==",
+    "variants": [
+      {
+        "width": 480,
+        "avif": "/images/optimized/2gis-20-480.avif",
+        "webp": "/images/optimized/2gis-20-480.webp"
+      },
+      {
+        "width": 960,
+        "avif": "/images/optimized/2gis-20-960.avif",
+        "webp": "/images/optimized/2gis-20-960.webp"
+      },
+      {
+        "width": 1440,
+        "avif": "/images/optimized/2gis-20-1440.avif",
+        "webp": "/images/optimized/2gis-20-1440.webp"
+      }
+    ]
+  },
+  "2gis-21.jpg": {
+    "src": "/images/original/2gis-21.jpg",
+    "width": 1440,
+    "height": 1920,
+    "aspect": 0.75,
+    "dominant": "#181818",
+    "blurDataURL": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAAAQAgCdASoMABAABABoJQBdgB6JlgKAR8iAAP70Ug+Nj0FnH3eHZ7X3koiGZyTxOX03YyoWGkrJ3YG5Ry1XA+xYVe+a0m7xedJQ29+BnO1jmqetsP3/6gsRLLcBnMEgAAA=",
+    "variants": [
+      {
+        "width": 480,
+        "avif": "/images/optimized/2gis-21-480.avif",
+        "webp": "/images/optimized/2gis-21-480.webp"
+      },
+      {
+        "width": 960,
+        "avif": "/images/optimized/2gis-21-960.avif",
+        "webp": "/images/optimized/2gis-21-960.webp"
+      },
+      {
+        "width": 1440,
+        "avif": "/images/optimized/2gis-21-1440.avif",
+        "webp": "/images/optimized/2gis-21-1440.webp"
+      }
+    ]
+  },
+  "2gis-22.jpg": {
+    "src": "/images/original/2gis-22.jpg",
+    "width": 1440,
+    "height": 1920,
+    "aspect": 0.75,
+    "dominant": "#383828",
+    "blurDataURL": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAAAQAgCdASoMABAABABoJZAC7ADNEmT4Bd8AAP7sRBePrHXKeBNWJVbhgdYNOnpf7AE48P1wG0J5UlHqA31KYDbP67MhadZos2aol+Z1imDwAAAA",
+    "variants": [
+      {
+        "width": 480,
+        "avif": "/images/optimized/2gis-22-480.avif",
+        "webp": "/images/optimized/2gis-22-480.webp"
+      },
+      {
+        "width": 960,
+        "avif": "/images/optimized/2gis-22-960.avif",
+        "webp": "/images/optimized/2gis-22-960.webp"
+      },
+      {
+        "width": 1440,
+        "avif": "/images/optimized/2gis-22-1440.avif",
+        "webp": "/images/optimized/2gis-22-1440.webp"
+      }
+    ]
+  },
+  "2gis-23.jpg": {
+    "src": "/images/original/2gis-23.jpg",
+    "width": 1440,
+    "height": 1920,
+    "aspect": 0.75,
+    "dominant": "#080808",
+    "blurDataURL": "data:image/webp;base64,UklGRnYAAABXRUJQVlA4IGoAAAAwAgCdASoMABAABABoJbACdAELXBAJi8dRAAD+n+0bzbzAFwWziVvSzuz49j3VyxZRbQWvBn3pYb4Fk4JNJBm4/8amy3RWN8PUl8xV8sRp7EKpgcNEHM0nSruc15a0GJsfHMdJhZuK4AAA",
+    "variants": [
+      {
+        "width": 480,
+        "avif": "/images/optimized/2gis-23-480.avif",
+        "webp": "/images/optimized/2gis-23-480.webp"
+      },
+      {
+        "width": 960,
+        "avif": "/images/optimized/2gis-23-960.avif",
+        "webp": "/images/optimized/2gis-23-960.webp"
+      },
+      {
+        "width": 1440,
+        "avif": "/images/optimized/2gis-23-1440.avif",
+        "webp": "/images/optimized/2gis-23-1440.webp"
+      }
+    ]
+  },
+  "2gis-24.jpg": {
+    "src": "/images/original/2gis-24.jpg",
+    "width": 1440,
+    "height": 810,
+    "aspect": 1.7778,
+    "dominant": "#282838",
+    "blurDataURL": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAADQAQCdASoMAAcABABoJQBOgBuDw04CAAD+rC6m6O74QPev7RXozAk4n2UcAirPunxNW5NwII72SshNygAAAA==",
+    "variants": [
+      {
+        "width": 480,
+        "avif": "/images/optimized/2gis-24-480.avif",
+        "webp": "/images/optimized/2gis-24-480.webp"
+      },
+      {
+        "width": 960,
+        "avif": "/images/optimized/2gis-24-960.avif",
+        "webp": "/images/optimized/2gis-24-960.webp"
+      },
+      {
+        "width": 1440,
+        "avif": "/images/optimized/2gis-24-1440.avif",
+        "webp": "/images/optimized/2gis-24-1440.webp"
+      }
+    ]
+  },
+  "2gis-25.jpg": {
+    "src": "/images/original/2gis-25.jpg",
+    "width": 1440,
+    "height": 1920,
+    "aspect": 0.75,
+    "dominant": "#787868",
+    "blurDataURL": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAABQAgCdASoMABAABABoJYgCdAELhiuMlY2P4AAA94gGG9nQ9mhEnu8wNQ1V8jiuw4Dz0EKxbY+1CS2TZoCEx32zkQeBs9mVpXfO6zfW4rFLXKCamRgAAA==",
+    "variants": [
+      {
+        "width": 480,
+        "avif": "/images/optimized/2gis-25-480.avif",
+        "webp": "/images/optimized/2gis-25-480.webp"
+      },
+      {
+        "width": 960,
+        "avif": "/images/optimized/2gis-25-960.avif",
+        "webp": "/images/optimized/2gis-25-960.webp"
+      },
+      {
+        "width": 1440,
+        "avif": "/images/optimized/2gis-25-1440.avif",
+        "webp": "/images/optimized/2gis-25-1440.webp"
+      }
+    ]
+  },
+  "2gis-26.jpg": {
+    "src": "/images/original/2gis-26.jpg",
+    "width": 1440,
+    "height": 1920,
+    "aspect": 0.75,
+    "dominant": "#181818",
+    "blurDataURL": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAACQAgCdASoMABAABABoJaACdAYu5zAyrrnQBYF5AAD3dvAhJDIWO4rRSQvuwnUHHhDZ2Vaq/N0eMxFlirQ7A15VIkNv2RWVZvSWBLQOYJ4rINLEcCfEX+f3jV/t3ioAAAA=",
+    "variants": [
+      {
+        "width": 480,
+        "avif": "/images/optimized/2gis-26-480.avif",
+        "webp": "/images/optimized/2gis-26-480.webp"
+      },
+      {
+        "width": 960,
+        "avif": "/images/optimized/2gis-26-960.avif",
+        "webp": "/images/optimized/2gis-26-960.webp"
+      },
+      {
+        "width": 1440,
+        "avif": "/images/optimized/2gis-26-1440.avif",
+        "webp": "/images/optimized/2gis-26-1440.webp"
+      }
+    ]
+  },
+  "2gis-27.jpg": {
+    "src": "/images/original/2gis-27.jpg",
+    "width": 1440,
+    "height": 1920,
+    "aspect": 0.75,
+    "dominant": "#686868",
+    "blurDataURL": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAACwAQCdASoMABAABABoJZQC7ADh1bmAAP7tFDkCRRYPBz/wOOpT/zpYtNV5c8hQb2oJtdYdnyuELs9dtYVH42Com53ZXQwIRyGft4Eg2vWk0HlibqAAAA==",
+    "variants": [
+      {
+        "width": 480,
+        "avif": "/images/optimized/2gis-27-480.avif",
+        "webp": "/images/optimized/2gis-27-480.webp"
+      },
+      {
+        "width": 960,
+        "avif": "/images/optimized/2gis-27-960.avif",
+        "webp": "/images/optimized/2gis-27-960.webp"
+      },
+      {
+        "width": 1440,
+        "avif": "/images/optimized/2gis-27-1440.avif",
+        "webp": "/images/optimized/2gis-27-1440.webp"
+      }
+    ]
+  },
+  "2gis-28.jpg": {
+    "src": "/images/original/2gis-28.jpg",
+    "width": 1440,
+    "height": 2148,
+    "aspect": 0.6704,
+    "dominant": "#081828",
+    "blurDataURL": "data:image/webp;base64,UklGRoYAAABXRUJQVlA4IHoAAABQBACdASoMABIAPxFysFAsJqSisAgBgCIJQBakf+7I4ehRjkb8/efucQAcAP1LtV5iOwU8UY44do8FXDYZbweSQjpzMIMFliBAY5c0D1WlG2bRy2hGCA6joqehtfbTl7pG4TaEInnC7kcH2ijxOdshdIBeUmJE+ygAAA==",
+    "variants": [
+      {
+        "width": 480,
+        "avif": "/images/optimized/2gis-28-480.avif",
+        "webp": "/images/optimized/2gis-28-480.webp"
+      },
+      {
+        "width": 960,
+        "avif": "/images/optimized/2gis-28-960.avif",
+        "webp": "/images/optimized/2gis-28-960.webp"
+      },
+      {
+        "width": 1440,
+        "avif": "/images/optimized/2gis-28-1440.avif",
+        "webp": "/images/optimized/2gis-28-1440.webp"
+      }
+    ]
+  },
+  "2gis-main.jpg": {
+    "src": "/images/original/2gis-main.jpg",
+    "width": 1170,
+    "height": 1665,
+    "aspect": 0.7027,
+    "dominant": "#9898a8",
+    "blurDataURL": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAABwAwCdASoMABEAPxFysFAsJqSisAgBgCIJaACdACDZcvIpwAAA/uMuQAMYL1Gb+3s4JyU9IttmX3EfrMNJD54U84BJ9xjdUzHftqfnVea5sYZ4zvzUuUWEIdoAAA==",
+    "variants": [
+      {
+        "width": 480,
+        "avif": "/images/optimized/2gis-main-480.avif",
+        "webp": "/images/optimized/2gis-main-480.webp"
+      },
+      {
+        "width": 960,
+        "avif": "/images/optimized/2gis-main-960.avif",
+        "webp": "/images/optimized/2gis-main-960.webp"
+      },
+      {
+        "width": 1170,
+        "avif": "/images/optimized/2gis-main-1170.avif",
+        "webp": "/images/optimized/2gis-main-1170.webp"
+      }
+    ]
+  },
+  "ig-03.jpg": {
+    "src": "/images/original/ig-03.jpg",
+    "width": 150,
+    "height": 150,
+    "aspect": 1,
+    "dominant": "#282828",
+    "blurDataURL": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAABQAgCdASoMAAwABABoJZACdAYuvyeGL688yAAA/gmVoptjdaMXehUxn3dRm/YE8al0ibOrh1MnWs63YDZyL+UzYE9WwnqlbLmvGCdtL5xuRH92zdXAJcZlAAyTAAAA",
+    "variants": [
+      {
+        "width": 150,
+        "avif": "/images/optimized/ig-03-150.avif",
+        "webp": "/images/optimized/ig-03-150.webp"
+      }
+    ]
+  },
+  "ig-05.jpg": {
+    "src": "/images/original/ig-05.jpg",
+    "width": 150,
+    "height": 150,
+    "aspect": 1,
+    "dominant": "#c8f8f8",
+    "blurDataURL": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAAAQAgCdASoMAAwABABoJbACdLoAAm2COFYAAP6I3UFSdfmXHwyNIYEf6p8U8oqDU2GwGzaCQ7HM3uwflHd2ewTZN+UBtdBYx/m7+XEs9Cc6uKoCZOliAAAA",
+    "variants": [
+      {
+        "width": 150,
+        "avif": "/images/optimized/ig-05-150.avif",
+        "webp": "/images/optimized/ig-05-150.webp"
+      }
+    ]
+  },
+  "ig-07.jpg": {
+    "src": "/images/original/ig-07.jpg",
+    "width": 485,
+    "height": 640,
+    "aspect": 0.7578,
+    "dominant": "#080808",
+    "blurDataURL": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAAAwAgCdASoMABAABABoJYgCdAEVvO2h/jq9wAD9d+lKtD4bAw646J0eYyWRrge9/Rl+1tMEqyqoAA==",
+    "variants": [
+      {
+        "width": 480,
+        "avif": "/images/optimized/ig-07-480.avif",
+        "webp": "/images/optimized/ig-07-480.webp"
+      },
+      {
+        "width": 485,
+        "avif": "/images/optimized/ig-07-485.avif",
+        "webp": "/images/optimized/ig-07-485.webp"
+      }
+    ]
+  },
+  "ig-08.jpg": {
+    "src": "/images/original/ig-08.jpg",
+    "width": 480,
+    "height": 640,
+    "aspect": 0.75,
+    "dominant": "#383838",
+    "blurDataURL": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAAAQAgCdASoMABAABABoJaQAAug01+rjkvyAAP6fDYTqY+qUVvvtdfdxPlWyGlQq85j0htWJQ6kKIsU6etJ7/R3/qoYgfcdEfM32AAAA",
+    "variants": [
+      {
+        "width": 480,
+        "avif": "/images/optimized/ig-08-480.avif",
+        "webp": "/images/optimized/ig-08-480.webp"
+      }
+    ]
+  },
+  "ig-09.jpg": {
+    "src": "/images/original/ig-09.jpg",
+    "width": 360,
+    "height": 640,
+    "aspect": 0.5625,
+    "dominant": "#080828",
+    "blurDataURL": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAADwAwCdASoMABUAPxFysFAsJqSisAgBgCIJQBfnBDvsLk2nWyUc2mkAAP7r87t2Sy59otzghqX/h2p6n6SJlsrOhjE+EEC3fx9JVWBfJIZpJ0/gOMTuFjlpw/CoAA==",
+    "variants": [
+      {
+        "width": 360,
+        "avif": "/images/optimized/ig-09-360.avif",
+        "webp": "/images/optimized/ig-09-360.webp"
+      }
+    ]
+  },
+  "ig-10.jpg": {
+    "src": "/images/original/ig-10.jpg",
+    "width": 480,
+    "height": 640,
+    "aspect": 0.75,
+    "dominant": "#181818",
+    "blurDataURL": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADQAQCdASoMABAABABoJaQAAlFpBLzuAAD+7s03uTHsNiQCgoRgATPIBaaj2E89iQGsMHAFWAtFIfuY5Ixek7N7fCylS6S4A4UTJIAAAAA=",
+    "variants": [
+      {
+        "width": 480,
+        "avif": "/images/optimized/ig-10-480.avif",
+        "webp": "/images/optimized/ig-10-480.webp"
+      }
+    ]
+  },
+  "ig-11.jpg": {
+    "src": "/images/original/ig-11.jpg",
+    "width": 499,
+    "height": 640,
+    "aspect": 0.7797,
+    "dominant": "#181818",
+    "blurDataURL": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAAAQAgCdASoMAA8ABABoJaQAAl1ztWPU08gAAP7qORf6WG3cmxY6lX+UC3KTXQTqhglF3l9QJSBRU/A4dq3Q3yuf2TGHrhyYTOzNSmYAAAA=",
+    "variants": [
+      {
+        "width": 480,
+        "avif": "/images/optimized/ig-11-480.avif",
+        "webp": "/images/optimized/ig-11-480.webp"
+      },
+      {
+        "width": 499,
+        "avif": "/images/optimized/ig-11-499.avif",
+        "webp": "/images/optimized/ig-11-499.webp"
+      }
+    ]
+  },
+  "ig-12.jpg": {
+    "src": "/images/original/ig-12.jpg",
+    "width": 531,
+    "height": 640,
+    "aspect": 0.8297,
+    "dominant": "#185898",
+    "blurDataURL": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAAAQAgCdASoMAA8ABABoJbACdAD0uyqsOTwAAP6+VAhNZMAXLwABqOjv5PyPbR6wPsE4/P5tRtcO8HVlQfeTfMV45+2PcGAD+4VQ8/gA",
+    "variants": [
+      {
+        "width": 480,
+        "avif": "/images/optimized/ig-12-480.avif",
+        "webp": "/images/optimized/ig-12-480.webp"
+      },
+      {
+        "width": 531,
+        "avif": "/images/optimized/ig-12-531.avif",
+        "webp": "/images/optimized/ig-12-531.webp"
+      }
+    ]
+  },
+  "ig-13.jpg": {
+    "src": "/images/original/ig-13.jpg",
+    "width": 480,
+    "height": 640,
+    "aspect": 0.75,
+    "dominant": "#f8f8e8",
+    "blurDataURL": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAAAwAgCdASoMABAABABoJQBOgCFskgXH9htSAAD+7aS7Vc+c8oepyu7YN/Ml55JsO2V2dK4zohNr9uMm1O8EjDqKMX6z9n5Z4XovTVqhACvJdQHeu5Ms8E8udxE6mFonlUYaKCsAAAA=",
+    "variants": [
+      {
+        "width": 480,
+        "avif": "/images/optimized/ig-13-480.avif",
+        "webp": "/images/optimized/ig-13-480.webp"
+      }
+    ]
+  },
+  "ig-14.jpg": {
+    "src": "/images/original/ig-14.jpg",
+    "width": 480,
+    "height": 640,
+    "aspect": 0.75,
+    "dominant": "#f8f8e8",
+    "blurDataURL": "data:image/webp;base64,UklGRn4AAABXRUJQVlA4IHIAAACwAgCdASoMABAABABoJYwCw7YstwfJ2+Uso0MNSAAA/u1sQu9/N7hnaf7yjXHtB2HB4HBrU0fSAWRO8uwHGHK7kaxY8VmIHokBltPypm9peGOn0/mZXOM9Zq2QN2NpTzKL3hxiz8B9xMf/8ZJ7quMAAAA=",
+    "variants": [
+      {
+        "width": 480,
+        "avif": "/images/optimized/ig-14-480.avif",
+        "webp": "/images/optimized/ig-14-480.webp"
+      }
+    ]
+  },
+  "ig-15.jpg": {
+    "src": "/images/original/ig-15.jpg",
+    "width": 480,
+    "height": 640,
+    "aspect": 0.75,
+    "dominant": "#181818",
+    "blurDataURL": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAAAQAgCdASoMABAABABoJbACdAD7AuJNTwAAAM3xTEiryT/Tx9j2eJWy9qh4EBtPQhPKq+zEU5ocneUSfGnOKoL/s6ePSV0elfRdEC4LwBAR/oA5Cq7xyvMQHZbRgAAA",
+    "variants": [
+      {
+        "width": 480,
+        "avif": "/images/optimized/ig-15-480.avif",
+        "webp": "/images/optimized/ig-15-480.webp"
+      }
+    ]
+  },
+  "ig-16.jpg": {
+    "src": "/images/original/ig-16.jpg",
+    "width": 360,
+    "height": 640,
+    "aspect": 0.5625,
+    "dominant": "#e8d8c8",
+    "blurDataURL": "data:image/webp;base64,UklGRnwAAABXRUJQVlA4IHAAAAAQBACdASoMABUAPxFysFAsJqSisAgBgCIJZQCw7YvW5Ejf7j/tbIp9+AD+1eQX7U1W5IgOqsH3gAAM3pqi2OiBsQJ2fdct+I+ZWV6pYRGSoZkBDsvneOeuv0Kd5SQb+r+VHe0RCLXNHZli+UXsUAAA",
+    "variants": [
+      {
+        "width": 360,
+        "avif": "/images/optimized/ig-16-360.avif",
+        "webp": "/images/optimized/ig-16-360.webp"
+      }
+    ]
+  },
+  "ig-17.jpg": {
+    "src": "/images/original/ig-17.jpg",
+    "width": 640,
+    "height": 360,
+    "aspect": 1.7778,
+    "dominant": "#080808",
+    "blurDataURL": "data:image/webp;base64,UklGRkAAAABXRUJQVlA4IDQAAADQAQCdASoMAAcABABoJZAC7AEJ3nTlgAD+8YR4E6vlRw68y2jZ5PWi4mfNgCnDgHAFkAAA",
+    "variants": [
+      {
+        "width": 480,
+        "avif": "/images/optimized/ig-17-480.avif",
+        "webp": "/images/optimized/ig-17-480.webp"
+      },
+      {
+        "width": 640,
+        "avif": "/images/optimized/ig-17-640.avif",
+        "webp": "/images/optimized/ig-17-640.webp"
+      }
+    ]
+  },
+  "ig-18.jpg": {
+    "src": "/images/original/ig-18.jpg",
+    "width": 360,
+    "height": 640,
+    "aspect": 0.5625,
+    "dominant": "#080808",
+    "blurDataURL": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAACQAwCdASoMABUAPxFysFAsJqSisAgBgCIJYwDE2CHcOlvUkOKAAP7ww9a1uHbMIZhI+ekqN4/qGgabFurjOIy7btsB7Y+eHLJFg9FpXpCwHQ2lgEHQAA==",
+    "variants": [
+      {
+        "width": 360,
+        "avif": "/images/optimized/ig-18-360.avif",
+        "webp": "/images/optimized/ig-18-360.webp"
+      }
+    ]
+  },
+  "ig-19.jpg": {
+    "src": "/images/original/ig-19.jpg",
+    "width": 360,
+    "height": 640,
+    "aspect": 0.5625,
+    "dominant": "#787878",
+    "blurDataURL": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAABwAwCdASoMABUAPxFysFAsJqSisAgBgCIJYwAAXu7Z2DJVTAAA/pFRDy4qxmrFGDIV6m53nsjBt1vDssogujEai+7ib7fTZl8Z2qejd6v8SUqVL94N7dCCrWdW2AAA",
+    "variants": [
+      {
+        "width": 360,
+        "avif": "/images/optimized/ig-19-360.avif",
+        "webp": "/images/optimized/ig-19-360.webp"
+      }
+    ]
+  },
+  "ig-20.jpg": {
+    "src": "/images/original/ig-20.jpg",
+    "width": 512,
+    "height": 640,
+    "aspect": 0.8,
+    "dominant": "#e8e8e8",
+    "blurDataURL": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAADwAQCdASoMAA8ABABoJYwC7AEOfAhypAAA/vNw8mIMrpP45igElyriX19+cVgKG+BRBAD567QQLLUD8YuQ8qTQAAA=",
+    "variants": [
+      {
+        "width": 480,
+        "avif": "/images/optimized/ig-20-480.avif",
+        "webp": "/images/optimized/ig-20-480.webp"
+      },
+      {
+        "width": 512,
+        "avif": "/images/optimized/ig-20-512.avif",
+        "webp": "/images/optimized/ig-20-512.webp"
+      }
+    ]
+  },
+  "ig-21.jpg": {
+    "src": "/images/original/ig-21.jpg",
+    "width": 360,
+    "height": 640,
+    "aspect": 0.5625,
+    "dominant": "#080808",
+    "blurDataURL": "data:image/webp;base64,UklGRnwAAABXRUJQVlA4IHAAAACQAwCdASoMABUALtGIxGIkLCwsDADQSxgABc6haNBXgsm9izQAAP72iO5UTUwN10QhwQcPKJt602XqZtuwbcq/ZM5m2OGeO/5MXx37Q7yHiWBmFr6tYJKdJ6N78SnsZdx6LSQ+44XjL4aNS3oeAAAA",
+    "variants": [
+      {
+        "width": 360,
+        "avif": "/images/optimized/ig-21-360.avif",
+        "webp": "/images/optimized/ig-21-360.webp"
+      }
+    ]
+  },
+  "ig-22.jpg": {
+    "src": "/images/original/ig-22.jpg",
+    "width": 512,
+    "height": 640,
+    "aspect": 0.8,
+    "dominant": "#080808",
+    "blurDataURL": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADwAQCdASoMAA8ABABoJZQCw7Efa/fpSSgA/sKTYFIxpVMoqW+bkqgfAmCsx95rKOo536/MRBsjVD+W1TCP329xOVEZwcgAAAA=",
+    "variants": [
+      {
+        "width": 480,
+        "avif": "/images/optimized/ig-22-480.avif",
+        "webp": "/images/optimized/ig-22-480.webp"
+      },
+      {
+        "width": 512,
+        "avif": "/images/optimized/ig-22-512.avif",
+        "webp": "/images/optimized/ig-22-512.webp"
+      }
+    ]
+  },
+  "ig-23.jpg": {
+    "src": "/images/original/ig-23.jpg",
+    "width": 360,
+    "height": 640,
+    "aspect": 0.5625,
+    "dominant": "#080808",
+    "blurDataURL": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAACwAwCdASoMABUAPxFysFAsJqSisAgBgCIJaACdMoACrSjG8mZrygD+ntQ8XCrXLtJdu/K5XuCpb23W0Vp5rynQK69MYwAGGWmB6xP3zfCKj4NkVkIAAA==",
+    "variants": [
+      {
+        "width": 360,
+        "avif": "/images/optimized/ig-23-360.avif",
+        "webp": "/images/optimized/ig-23-360.webp"
+      }
+    ]
+  },
+  "ig-24.jpg": {
+    "src": "/images/original/ig-24.jpg",
+    "width": 512,
+    "height": 640,
+    "aspect": 0.8,
+    "dominant": "#080808",
+    "blurDataURL": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADwAQCdASoMAA8ABABoJZAAAueKhazrzcAA/vd8CifXdp+voMa2kRhF+t+Prhihdr+HOHQ9W1uATOqSAM6gW/vnaGgAAA==",
+    "variants": [
+      {
+        "width": 480,
+        "avif": "/images/optimized/ig-24-480.avif",
+        "webp": "/images/optimized/ig-24-480.webp"
+      },
+      {
+        "width": 512,
+        "avif": "/images/optimized/ig-24-512.avif",
+        "webp": "/images/optimized/ig-24-512.webp"
+      }
+    ]
+  },
+  "ig-25.jpg": {
+    "src": "/images/original/ig-25.jpg",
+    "width": 512,
+    "height": 640,
+    "aspect": 0.8,
+    "dominant": "#484848",
+    "blurDataURL": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAAAQAgCdASoMAA8ABABoJaQAD5JtaRfsZ54AAP6mp/fnQsd7m31oDyDL4hge7qtxmstqp3oWwRe5LtV0l+UMI374QETgh58cm4T7S7HEUonw8f9scPeb15akiVX1AAAA",
+    "variants": [
+      {
+        "width": 480,
+        "avif": "/images/optimized/ig-25-480.avif",
+        "webp": "/images/optimized/ig-25-480.webp"
+      },
+      {
+        "width": 512,
+        "avif": "/images/optimized/ig-25-512.avif",
+        "webp": "/images/optimized/ig-25-512.webp"
+      }
+    ]
+  },
+  "ig-26.jpg": {
+    "src": "/images/original/ig-26.jpg",
+    "width": 640,
+    "height": 427,
+    "aspect": 1.4988,
+    "dominant": "#080808",
+    "blurDataURL": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAACwAQCdASoMAAgABABoJaQAAsaDEnXAAP7BAjFe/N5wFcDqPQcaF+n7ESWoIdchYr62vpTWysMbuaQAAAA=",
+    "variants": [
+      {
+        "width": 480,
+        "avif": "/images/optimized/ig-26-480.avif",
+        "webp": "/images/optimized/ig-26-480.webp"
+      },
+      {
+        "width": 640,
+        "avif": "/images/optimized/ig-26-640.avif",
+        "webp": "/images/optimized/ig-26-640.webp"
+      }
+    ]
+  },
+  "ig-27.jpg": {
+    "src": "/images/original/ig-27.jpg",
+    "width": 512,
+    "height": 640,
+    "aspect": 0.8,
+    "dominant": "#080808",
+    "blurDataURL": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAAAwAgCdASoMAA8ABABoJbACdADcrJP5Jb3EAAD2t3IULrW9j9Im6qnMHV3q48nTKfHLrMI3pHloPwrKMHmeRp9KFKcmLS3k9+gTzacw8cBINyHkeOCO4lItsscqkT/u99OB0Y0AAAA=",
+    "variants": [
+      {
+        "width": 480,
+        "avif": "/images/optimized/ig-27-480.avif",
+        "webp": "/images/optimized/ig-27-480.webp"
+      },
+      {
+        "width": 512,
+        "avif": "/images/optimized/ig-27-512.avif",
+        "webp": "/images/optimized/ig-27-512.webp"
+      }
+    ]
+  },
+  "ig-28.jpg": {
+    "src": "/images/original/ig-28.jpg",
+    "width": 640,
+    "height": 427,
+    "aspect": 1.4988,
+    "dominant": "#181808",
+    "blurDataURL": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAACwAQCdASoMAAgABABoJQBOgBtwO+hQAP7p/dPkbachWOwVH44xovtusn2Wj2NVl4N5fscTDD99caM83JcDOIalGxNoHUAA",
+    "variants": [
+      {
+        "width": 480,
+        "avif": "/images/optimized/ig-28-480.avif",
+        "webp": "/images/optimized/ig-28-480.webp"
+      },
+      {
+        "width": 640,
+        "avif": "/images/optimized/ig-28-640.avif",
+        "webp": "/images/optimized/ig-28-640.webp"
+      }
+    ]
+  },
+  "ig-29.jpg": {
+    "src": "/images/original/ig-29.jpg",
+    "width": 512,
+    "height": 640,
+    "aspect": 0.8,
+    "dominant": "#f8f8f8",
+    "blurDataURL": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAAAQAgCdASoMAA8ABABoJbACsAEPEJcYtJsAAP705oiMUvXztlV+9CnhQ34AHIvWvIf4nbfi1xwD0UqhWU+0iDgMNHeyYc2PB6Z7CregAAA=",
+    "variants": [
+      {
+        "width": 480,
+        "avif": "/images/optimized/ig-29-480.avif",
+        "webp": "/images/optimized/ig-29-480.webp"
+      },
+      {
+        "width": 512,
+        "avif": "/images/optimized/ig-29-512.avif",
+        "webp": "/images/optimized/ig-29-512.webp"
+      }
+    ]
+  },
+  "ig-30.jpg": {
+    "src": "/images/original/ig-30.jpg",
+    "width": 360,
+    "height": 640,
+    "aspect": 0.5625,
+    "dominant": "#882838",
+    "blurDataURL": "data:image/webp;base64,UklGRoIAAABXRUJQVlA4IHYAAACQAwCdASoMABUAPxFysVCsJqSisAgBgCIJbACo9BweFmn4XaSwANv9EnPPYsDelo4jvWCPK1F1gJ4ciKfTYJ5FOjo6ov+ZA+SnsnsFRqpuQ1UIAGxlg107YjfuC+VC2DLvsVAz3d58nHXvitmay4Vn3X73b0AA",
+    "variants": [
+      {
+        "width": 360,
+        "avif": "/images/optimized/ig-30-360.avif",
+        "webp": "/images/optimized/ig-30-360.webp"
+      }
+    ]
+  }
+}

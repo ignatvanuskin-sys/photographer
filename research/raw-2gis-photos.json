@@ -1,0 +1,372 @@
+{
+  "albums": [
+    {
+      "count": 28,
+      "id": "all",
+      "name": "Все"
+    },
+    {
+      "count": 1,
+      "id": "outside",
+      "name": "Снаружи"
+    },
+    {
+      "count": 3,
+      "id": "goods",
+      "name": "Товары"
+    },
+    {
+      "count": 10,
+      "id": "services",
+      "name": "Услуги"
+    },
+    {
+      "count": 5,
+      "id": "owner",
+      "name": "От владельца"
+    },
+    {
+      "count": 23,
+      "id": "user",
+      "name": "От посетителей"
+    }
+  ],
+  "items": [
+    {
+      "copyright": {
+        "text": "Фотография из отзывов",
+        "title": "Акнур Калмаганбетова",
+        "type": "text"
+      },
+      "h": 1665,
+      "id": "30258560180203954",
+      "owner": "Акнур Калмаганбетова",
+      "url": "https://i9.photo.2gis.com/photo-gallery/c335ae20-0d6e-4853-af4d-1553d19c5e1f.jpg",
+      "w": 1170
+    },
+    {
+      "copyright": {
+        "text": "Фотография от владельца",
+        "title": "Фотография от владельца",
+        "type": "text"
+      },
+      "h": 3574,
+      "id": "30258560254070099",
+      "owner": null,
+      "url": "https://i8.photo.2gis.com/photo-gallery/2982933b-3441-4e0e-a8e8-05f55b1a2bbb.jpg",
+      "w": 2965
+    },
+    {
+      "copyright": {
+        "text": "Фотография из отзывов",
+        "title": ". .",
+        "type": "text"
+      },
+      "h": 1772,
+      "id": "30258560238484331",
+      "owner": ". .",
+      "url": "https://i5.photo.2gis.com/photo-gallery/c84b725d-c338-4646-9bb8-03fe6a89f5bd.jpg",
+      "w": 1181
+    },
+    {
+      "copyright": {
+        "text": "Фотография от пользователя",
+        "title": "Асыл Коканбаев",
+        "type": "text"
+      },
+      "h": 5472,
+      "id": "30258560239171552",
+      "owner": "Асыл Коканбаев",
+      "url": "https://i5.photo.2gis.com/photo-gallery/6eaf71aa-b2d8-4f4c-b38d-1ced6a6cd089.jpg",
+      "w": 3648
+    },
+    {
+      "copyright": {
+        "text": "Фотография от пользователя",
+        "title": "Асыл Коканбаев",
+        "type": "text"
+      },
+      "h": 5472,
+      "id": "30258560189560302",
+      "owner": "Асыл Коканбаев",
+      "url": "https://i5.photo.2gis.com/photo-gallery/3e9d280d-3b7c-4332-91bf-d992911d4fdc.jpg",
+      "w": 3648
+    },
+    {
+      "copyright": {
+        "text": "Фотография от пользователя",
+        "title": "Асыл Коканбаев",
+        "type": "text"
+      },
+      "h": 5472,
+      "id": "30258560239171559",
+      "owner": "Асыл Коканбаев",
+      "url": "https://i8.photo.2gis.com/photo-gallery/5bbdfa1c-ce8c-4658-bb73-cbdeb44cbd60.jpg",
+      "w": 3648
+    },
+    {
+      "copyright": {
+        "text": "Фотография из отзывов",
+        "title": "Tanya Kachan",
+        "type": "text"
+      },
+      "h": 5712,
+      "id": "30258560238809378",
+      "owner": "Tanya Kachan",
+      "url": "https://i5.photo.2gis.com/photo-gallery/7ea5275b-14e3-4ec9-a4bc-c69b5e48c869.jpg",
+      "w": 3213
+    },
+    {
+      "copyright": {
+        "text": "Фотография от владельца",
+        "title": "Фотография от владельца",
+        "type": "text"
+      },
+      "h": 3075,
+      "id": "30258560254070094",
+      "owner": null,
+      "url": "https://i0.photo.2gis.com/photo-gallery/8f80a1cf-9a5d-42aa-9288-5b96ef8bab95.jpg",
+      "w": 4613
+    },
+    {
+      "copyright": {
+        "text": "Фотография от владельца",
+        "title": "Фотография от владельца",
+        "type": "text"
+      },
+      "h": 4096,
+      "id": "30258560254070095",
+      "owner": null,
+      "url": "https://i0.photo.2gis.com/photo-gallery/23bcb63a-3db6-45e4-8142-36158526fbc6.jpg",
+      "w": 3072
+    },
+    {
+      "copyright": {
+        "text": "Фотография от пользователя",
+        "title": "Асыл Коканбаев",
+        "type": "text"
+      },
+      "h": 5472,
+      "id": "30258560182366950",
+      "owner": "Асыл Коканбаев",
+      "url": "https://i3.photo.2gis.com/photo-gallery/c1c77d22-dfb0-44de-a0f4-6c243773d062.jpg",
+      "w": 3648
+    },
+    {
+      "copyright": {
+        "text": "Фотография от пользователя",
+        "title": "Асыл Коканбаев",
+        "type": "text"
+      },
+      "h": 5472,
+      "id": "30258560239171553",
+      "owner": "Асыл Коканбаев",
+      "url": "https://i3.photo.2gis.com/photo-gallery/43684d73-1b02-42b9-bd8e-69086edbc39c.jpg",
+      "w": 3648
+    },
+    {
+      "copyright": {
+        "text": "Фотография от владельца",
+        "title": "Фотография от владельца",
+        "type": "text"
+      },
+      "h": 5472,
+      "id": "30258560254070097",
+      "owner": null,
+      "url": "https://i9.photo.2gis.com/photo-gallery/54801141-a616-445a-a2c6-856bcb827a15.jpg",
+      "w": 3648
+    },
+    {
+      "copyright": {
+        "text": "Фотография из отзывов",
+        "title": "Лидия Хан",
+        "type": "text"
+      },
+      "h": 3088,
+      "id": "30258560239023079",
+      "owner": "Лидия Хан",
+      "url": "https://i4.photo.2gis.com/photo-gallery/8356635c-d402-4c96-9597-8a4afce2c9f4.jpg",
+      "w": 2316
+    },
+    {
+      "copyright": {
+        "text": "Фотография от пользователя",
+        "title": "Ислана Сейсенбаева",
+        "type": "text"
+      },
+      "h": 4032,
+      "id": "30258560239468843",
+      "owner": "Ислана Сейсенбаева",
+      "url": "https://i1.photo.2gis.com/photo-gallery/3c9dfdc8-6398-40c1-bda2-d9a201792891.jpg",
+      "w": 3024
+    },
+    {
+      "copyright": {
+        "text": "Фотография из отзывов",
+        "title": "Merey Tugelbay",
+        "type": "text"
+      },
+      "h": 3024,
+      "id": "30258560238862440",
+      "owner": "Merey Tugelbay",
+      "url": "https://i4.photo.2gis.com/photo-gallery/6db83a9a-904c-4417-a22f-f144c7251023.jpg",
+      "w": 4032
+    },
+    {
+      "copyright": {
+        "text": "Фотография из отзывов",
+        "title": "Сая Нургазина",
+        "type": "text"
+      },
+      "h": 4032,
+      "id": "30258560238794877",
+      "owner": "Сая Нургазина",
+      "url": "https://i9.photo.2gis.com/photo-gallery/f45c926e-45e2-4cf0-bbaa-1a2417cfe61d.jpg",
+      "w": 3024
+    },
+    {
+      "copyright": {
+        "text": "Фотография из отзывов",
+        "title": "Ақмарал Адехан",
+        "type": "text"
+      },
+      "h": 3648,
+      "id": "30258560238890823",
+      "owner": "Ақмарал Адехан",
+      "url": "https://i9.photo.2gis.com/photo-gallery/e0e93392-8ac0-4094-a3d8-9f96b40d39d9.jpg",
+      "w": 5472
+    },
+    {
+      "copyright": {
+        "text": "Фотография от пользователя",
+        "title": "Ислана Сейсенбаева",
+        "type": "text"
+      },
+      "h": 4032,
+      "id": "30258560239468232",
+      "owner": "Ислана Сейсенбаева",
+      "url": "https://i3.photo.2gis.com/photo-gallery/df588ced-b620-4567-8606-a803af4cd0e0.jpg",
+      "w": 3024
+    },
+    {
+      "copyright": {
+        "text": "Фотография из отзывов",
+        "title": "Orynsha Bekmukhambetova",
+        "type": "text"
+      },
+      "h": 4032,
+      "id": "30258560239034152",
+      "owner": "Orynsha Bekmukhambetova",
+      "url": "https://i7.photo.2gis.com/photo-gallery/e131bb5c-bbb3-4d9c-aa0e-55419f031857.jpg",
+      "w": 3024
+    },
+    {
+      "copyright": {
+        "text": "Фотография из отзывов",
+        "title": "sss .",
+        "type": "text"
+      },
+      "h": 4032,
+      "id": "30258560243671371",
+      "owner": "sss .",
+      "url": "https://i6.photo.2gis.com/photo-gallery/fe4d9c42-e141-422a-b1eb-59250e8e59eb.jpg",
+      "w": 3024
+    },
+    {
+      "copyright": {
+        "text": "Фотография из отзывов",
+        "title": "Алдияр Каримов",
+        "type": "text"
+      },
+      "h": 4032,
+      "id": "30258560239058024",
+      "owner": "Алдияр Каримов",
+      "url": "https://i6.photo.2gis.com/photo-gallery/80391ba9-8def-44cf-8419-1f3c46c5eecf.jpg",
+      "w": 3024
+    },
+    {
+      "copyright": {
+        "text": "Фотография из отзывов",
+        "title": "Lan4ik07 .",
+        "type": "text"
+      },
+      "h": 4032,
+      "id": "30258560238858329",
+      "owner": "Lan4ik07 .",
+      "url": "https://i3.photo.2gis.com/photo-gallery/20fc8be7-a586-4090-9a33-e954bcbc1536.jpg",
+      "w": 3024
+    },
+    {
+      "copyright": {
+        "text": "Фотография из отзывов",
+        "title": "timur urur",
+        "type": "text"
+      },
+      "h": 3088,
+      "id": "30258560238412634",
+      "owner": "timur urur",
+      "url": "https://i6.photo.2gis.com/photo-gallery/d5eee573-7b83-4164-8aa2-fef3f64e7416.jpg",
+      "w": 2316
+    },
+    {
+      "copyright": {
+        "text": "Фотография от владельца",
+        "title": "Фотография от владельца",
+        "type": "text"
+      },
+      "h": 2160,
+      "id": "30258560254070103",
+      "owner": null,
+      "url": "https://i6.photo.2gis.com/photo-gallery/503905b6-b506-4042-80bf-29b51f2bc6df.jpg",
+      "w": 3840
+    },
+    {
+      "copyright": {
+        "text": "Фотография из отзывов",
+        "title": "Nazel Kaiyrbekova",
+        "type": "text"
+      },
+      "h": 4000,
+      "id": "30258560242819799",
+      "owner": "Nazel Kaiyrbekova",
+      "url": "https://i9.photo.2gis.com/photo-gallery/adb5a4af-b7ac-4c77-88e2-e5b3b92ba088.jpg",
+      "w": 3000
+    },
+    {
+      "copyright": {
+        "text": "Фотография из отзывов",
+        "title": "Elmira Jumataevna",
+        "type": "text"
+      },
+      "h": 4064,
+      "id": "30258560239027454",
+      "owner": "Elmira Jumataevna",
+      "url": "https://i5.photo.2gis.com/photo-gallery/2387b92b-d197-4174-bd47-f0e2c9790855.jpg",
+      "w": 3048
+    },
+    {
+      "copyright": {
+        "text": "Фотография из отзывов",
+        "title": "Айнур Иксанова",
+        "type": "text"
+      },
+      "h": 4000,
+      "id": "30258560238823153",
+      "owner": "Айнур Иксанова",
+      "url": "https://i4.photo.2gis.com/photo-gallery/600d82ca-3d0a-4276-a08b-4125afb2e4a8.jpg",
+      "w": 3000
+    },
+    {
+      "copyright": {
+        "text": "Фотография из отзывов",
+        "title": "Jasmine T",
+        "type": "text"
+      },
+      "h": 3497,
+      "id": "30258560239034606",
+      "owner": "Jasmine T",
+      "url": "https://i3.photo.2gis.com/photo-gallery/68d3396c-20dd-40bc-8af6-7eef6a09635c.jpg",
+      "w": 2344
+    }
+  ]
+}
